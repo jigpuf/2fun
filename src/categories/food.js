@@ -6,7 +6,7 @@ const Food = () => {
   const longitude = -122.03118;
   return (
     <div>
-      <a href={`http://maps.apple.com/?ll=${latitude},${longitude}`}>map</a>
+      <a href={`http://maps.apple.com/?ll=${latitude},${longitude}`}>maps</a>
     </div>
   );
 };
