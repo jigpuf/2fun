@@ -1,5 +1,321 @@
 export default [
   {
+    name: "Crater of Diamonds State Park",
+    address: {
+      country: "United States",
+      state: "Arkansas",
+      city: "Murfreesboro",
+      street: "209 State Park Rd",
+    },
+    location: {
+      latitude: 34.0379,
+      longitude: -93.6804,
+    },
+    type: ["State Park", "Diamond Mine"],
+    activities: [
+      {
+        event: "Diamond Hunting",
+        date: "Anytime",
+      },
+      {
+        event: "Exploring Park Trails",
+        date: "Anytime",
+      },
+    ],
+    url: "https://www.arkansasstateparks.com/parks/crater-diamonds-state-park",
+    want: ["/users/kman.png"],
+    been: [""],
+    slug: "Crater of Diamonds State Park",
+  },
+
+  {
+    name: "Degray Lake Resort State Park",
+    address: {
+      country: "United States",
+      state: "Arkansas",
+      city: "city",
+      street: "street",
+    },
+    location: { latitude: 34.241238, longitude: -93.243558 },
+    type: ["Nature", "State Park"],
+    activities: [{ event: "Hiking", date: "Anytime" }],
+    url: "[URL for Degray Lake Resort State Park]",
+    want: ["/users/kman.png"],
+    been: [""],
+    slug: "Degray Lake Resort State Park",
+  },
+  {
+    name: "Mid-America Science Museum",
+    address: {
+      country: "United States",
+      state: "Arkansas",
+      city: "Hot Springs",
+      street: "500 Mid America Blvd",
+    },
+    location: {
+      latitude: 34.517,
+      longitude: -93.0998,
+    },
+    type: ["Science Museum", "Interactive Exhibits"],
+    activities: [
+      {
+        event: "Exploring Exhibits",
+        date: "Anytime",
+      },
+      {
+        event: "Participating in Hands-On Activities",
+        date: "Anytime",
+      },
+    ],
+    url: "https://www.midamericamuseum.org/",
+    want: [""],
+    been: ["/users/kman.png"],
+    slug: "Mid-America Science Museum",
+  },
+  {
+    name: "Crescent Hotel",
+    address: {
+      country: "United States",
+      state: "Arkansas",
+      city: "Eureka Springs",
+      street: "75 Prospect Ave",
+    },
+    location: {
+      latitude: 36.4053,
+      longitude: -93.7376,
+    },
+    type: ["Historic Hotel", "Haunted"],
+    activities: [
+      {
+        event: "Staying at the Hotel",
+        date: "Anytime",
+      },
+      {
+        event: "Ghost Tour",
+        date: "Anytime",
+      },
+    ],
+    url: "https://www.crescent-hotel.com/",
+    want: [""],
+    been: ["/users/kman.png"],
+    slug: "Crescent Hotel",
+  },
+  {
+    name: "Thorncrown Chapel",
+    address: {
+      country: "United States",
+      state: "Arkansas",
+      city: "Eureka Springs",
+      street: "12968 US-62",
+    },
+    location: {
+      latitude: 36.4013,
+      longitude: -93.7632,
+    },
+    type: ["Chapel", "Architectural Landmark"],
+    activities: [
+      {
+        event: "Visiting the Chapel",
+        date: "Anytime",
+      },
+      {
+        event: "Attending a Wedding or Event",
+        date: "Depends on the Event",
+      },
+    ],
+    url: "https://www.thorncrown.com/",
+    want: [""],
+    been: ["/users/kman.png"],
+    slug: "Thorncrown Chapel",
+  },
+  {
+    name: "Hot Springs National Park",
+    address: {
+      country: "United States",
+      state: "Arkansas",
+      city: "Hot Springs",
+      street: "",
+    },
+    location: {
+      latitude: 34.5211,
+      longitude: -93.0422,
+    },
+    type: ["National Park", "Hot Springs", "Historic Site"],
+    activities: [
+      {
+        event: "Enjoying thermal springs",
+      },
+      {
+        event: "Exploring Bathhouse Row",
+      },
+      {
+        event: "Hiking",
+      },
+      {
+        event: "Scenic drives",
+      },
+    ],
+    url: "https://www.nps.gov/hosp/index.htm",
+    want: ["/users/kman.png"],
+    been: [],
+    slug: "Hot Springs National Park",
+  },
+  {
+    name: "Bass Pro Shop Memphis",
+    address: {
+      country: "United States",
+      state: "Tennessee",
+      city: "Memphis",
+      street: "1 Bass Pro Dr",
+    },
+    location: {
+      latitude: 35.1552,
+      longitude: -90.0421,
+    },
+    type: ["Retail", "Outdoor Recreation"],
+    activities: [
+      {
+        event: "Shopping",
+        date: "Anytime",
+      },
+      {
+        event: "Fishing",
+        date: "Anytime",
+      },
+    ],
+    url: "https://www.basspro.com/shop/en/memphis",
+    want: ["/users/kman.png"],
+    been: [""],
+    slug: "Bass Pro Shop Memphis",
+  },
+
+  {
+    name: "Falls Creek Falls Swimming Hole",
+    address: {
+      country: "United States",
+      state: "Tennessee",
+      city: "Carson Springs",
+      street: "",
+    },
+    location: {
+      latitude: 35.2069,
+      longitude: -84.6221,
+    },
+    type: ["Natural Swimming Hole", "Waterfall"],
+    activities: [
+      {
+        event: "Swimming",
+        date: "Depends on the Season",
+      },
+      {
+        event: "Hiking",
+        date: "Depends on the Season",
+      },
+      {
+        event: "Picnicking",
+        date: "Depends on the Season",
+      },
+    ],
+    url: "",
+    want: ["/users/kman.png"],
+    been: [""],
+    slug: "Falls Creek Falls Swimming Hole",
+  },
+  {
+    name: "Gatlinburg",
+    address: {
+      country: "United States",
+      state: "Tennessee",
+      city: "Gatlinburg",
+      street: "",
+    },
+    location: {
+      latitude: 35.7143,
+      longitude: -83.5102,
+    },
+    type: ["Tourist Destination", "Mountain Retreat"],
+    activities: [
+      {
+        event: "Hiking",
+      },
+      {
+        event: "Sightseeing",
+      },
+      {
+        event: "Shopping",
+      },
+      {
+        event: "Galleries and Museums",
+      },
+      {
+        event: "Outdoor Adventures",
+      },
+      {
+        event: "Scenic Drives",
+      },
+    ],
+    url: "https://www.gatlinburg.com/",
+    want: [],
+    been: ["/users/ocho.png"],
+    slug: "gatlinburg",
+  },
+  {
+    name: "Lost River Cave Boat Tours",
+    address: {
+      country: "United States",
+      state: "Kentucky",
+      city: "Bowling Green",
+      street: "2818 Nashville Rd",
+    },
+    location: {
+      latitude: 36.9482,
+      longitude: -86.4467,
+    },
+    type: ["Cave", "Boat Tour"],
+    activities: [
+      {
+        event: "Guided Boat Tour",
+        date: "Anytime",
+      },
+      {
+        event: "Exploring Cave Formations",
+        date: "Anytime",
+      },
+    ],
+    url: "https://lostrivercave.org/",
+    want: ["/users/kman.png"],
+    been: [""],
+    slug: "Lost River Cave Boat Tours",
+  },
+  {
+    name: "Ark Encounter",
+    address: {
+      country: "United States",
+      state: "Kentucky",
+      city: "Williamstown",
+      street: "Ark Encounter Drive",
+    },
+    location: {
+      latitude: 38.625,
+      longitude: -84.5605,
+    },
+    type: ["Attraction", "Religious"],
+    activities: [
+      {
+        event: "Tour",
+        date: "Anytime",
+      },
+      {
+        event: "Exhibits",
+        date: "Anytime",
+      },
+    ],
+    url: "https://arkencounter.com/",
+    want: ["/users/kman.png"],
+    been: [""],
+    slug: "Ark Encounter",
+  },
+  {
     name: "Mammoth Cave National Park",
     address: {
       country: "United States",
@@ -16,6 +332,207 @@ export default [
     slug: "Mammoth Cave National Park",
   },
 
+  {
+    name: "Crystal Onyx Cave",
+    address: {
+      country: "United States",
+      state: "Kentucky",
+      city: "Barren County",
+      street: "",
+    },
+    location: {
+      latitude: 37.111,
+      longitude: -85.972,
+    },
+    type: ["Cave", "Guided Tour"],
+    activities: [
+      {
+        event: "Guided Cave Tour",
+        date: "Anytime",
+      },
+      {
+        event: "Exploring Cave Formations",
+        date: "Anytime",
+      },
+    ],
+    url: "",
+    want: ["/users/kman.png"],
+    been: [""],
+    slug: "Crystal Onyx Cave",
+  },
+  {
+    name: "Hidden River Cave and the American Cave Museum",
+    address: {
+      country: "United States",
+      state: "Kentucky",
+      city: "Horse Cave",
+      street: "119 East Main Street",
+    },
+    location: {
+      latitude: 37.1787,
+      longitude: -85.9056,
+    },
+    type: ["Cave", "Museum"],
+    activities: [
+      {
+        event: "Guided Cave Tours",
+      },
+      {
+        event: "Educational Exhibits",
+      },
+      {
+        event: "Interactive Displays",
+      },
+      {
+        event: "Gift Shop",
+      },
+    ],
+    url: "https://www.hiddenrivercave.com/",
+    want: ["/users/kman.png"],
+    been: [],
+    slug: "Hidden River Cave and the American Cave Museum",
+  },
+  {
+    name: "Kentucky Down Under Adventure Cave",
+    address: {
+      country: "United States",
+      state: "Kentucky",
+      city: "Horse Cave",
+      street: "3700 L and N Turnpike Rd",
+    },
+    location: {
+      latitude: 37.1533,
+      longitude: -85.9038,
+    },
+    type: ["Adventure Park", "Cave Tour"],
+    activities: [
+      {
+        event: "Guided Cave Tour",
+        date: "Anytime",
+      },
+      {
+        event: "Interacting with Australian Animals",
+        date: "Anytime",
+      },
+    ],
+    url: "https://www.kdu.com/",
+    want: ["/users/kman.png"],
+    been: [""],
+    slug: "Kentucky Down Under Adventure Cave",
+  },
+  {
+    name: "Hill Cumorah",
+    address: {
+      country: "United States",
+      state: "New York",
+      city: "Manchester",
+      street: "603 State Route 21",
+    },
+    location: {
+      latitude: 43.0611,
+      longitude: -77.0887,
+    },
+    type: ["Religious", "Historical Site"],
+    activities: [
+      {
+        event: "Visiting",
+        date: "Anytime",
+      },
+      {
+        event: "Pageant",
+        date: "July",
+      },
+    ],
+    url: "https://www.hillcumorah.org/",
+    want: ["/users/kman.png"],
+    been: [""],
+    slug: "Hill Cumorah",
+  },
+
+  {
+    name: "Sacred Grove",
+    address: {
+      country: "United States",
+      state: "New York",
+      city: "Palmyra",
+      street: "6450 NY-21",
+    },
+    location: {
+      latitude: 43.0493,
+      longitude: -77.2401,
+    },
+    type: ["Historical Site", "Religious"],
+    activities: [
+      {
+        event: "Visiting",
+        date: "Anytime",
+      },
+      {
+        event: "Reflection",
+        date: "Anytime",
+      },
+    ],
+    url: "https://www.churchofjesuschrist.org/locations/sacred-grove?lang=eng",
+    want: ["/users/kman.png"],
+    been: [""],
+    slug: "Sacred Grove",
+  },
+  {
+    name: "Statue of Liberty",
+    address: {
+      country: "United States",
+      state: "New York",
+      city: "New York City",
+      street: "Liberty Island",
+    },
+    location: {
+      latitude: 40.6892,
+      longitude: -74.0445,
+    },
+    type: ["Monument", "Landmark"],
+    activities: [
+      {
+        event: "Sightseeing",
+        date: "Anytime",
+      },
+      {
+        event: "Crown Access",
+        date: "Reservation Required",
+      },
+    ],
+    url: "https://www.nps.gov/stli/index.htm",
+    want: ["/users/kman.png"],
+    been: [""],
+    slug: "Statue of Liberty",
+  },
+  {
+    name: "Niagara Falls",
+    address: {
+      country: "United States",
+      state: "New York",
+      city: "Niagara Falls",
+      street: "",
+    },
+    location: {
+      latitude: 43.0828,
+      longitude: -79.0742,
+    },
+    type: ["Natural Landmark", "Waterfall"],
+    activities: [
+      {
+        event: "Boat Tour",
+        date: "Anytime",
+      },
+      {
+        event: "Observation",
+        date: "Anytime",
+      },
+    ],
+    url: "https://www.niagarafallsstatepark.com/",
+    want: ["/users/kman.png"],
+    been: [""],
+    slug: "Niagara Falls",
+  },
   {
     name: "Dry Tortugas",
     address: {
@@ -83,33 +600,38 @@ export default [
     been: [""],
     slug: "Fiji",
   },
+
   {
-    name: "Ark Encounter",
+    name: "Royal Gorge",
     address: {
       country: "United States",
-      state: "Kentucky",
-      city: "Williamstown",
-      street: "Ark Encounter Drive",
+      state: "Colorado",
+      city: "Canon City",
+      street: "",
     },
     location: {
-      latitude: 38.625,
-      longitude: -84.5605,
+      latitude: 38.461,
+      longitude: -105.3255,
     },
-    type: ["Attraction", "Religious"],
+    type: ["Gorge", "Scenic Views"],
     activities: [
       {
-        event: "Tour",
+        event: "Riding the Royal Gorge Route Railroad",
         date: "Anytime",
       },
       {
-        event: "Exhibits",
+        event: "Walking across the Royal Gorge Bridge",
+        date: "Anytime",
+      },
+      {
+        event: "Zipline",
         date: "Anytime",
       },
     ],
-    url: "https://arkencounter.com/",
-    want: ["/users/kman.png"],
-    been: [""],
-    slug: "Ark Encounter",
+    url: "https://royalgorgebridge.com/",
+    want: [""],
+    been: ["/users/kman.png"],
+    slug: "Royal Gorge",
   },
   {
     name: "Spiro Mounds",
@@ -139,62 +661,36 @@ export default [
     been: [""],
     slug: "Spiro Mounds",
   },
+
   {
-    name: "Hill Cumorah",
+    name: "Glore Psychiatric Museum",
     address: {
       country: "United States",
-      state: "New York",
-      city: "Manchester",
-      street: "603 State Route 21",
+      state: "Missouri",
+      city: "St. Joseph",
+      street: "3406 Frederick Ave",
     },
     location: {
-      latitude: 43.0611,
-      longitude: -77.0887,
+      latitude: 39.7591,
+      longitude: -94.8222,
     },
-    type: ["Religious", "Historical Site"],
+    type: ["Psychiatric Museum", "Medical History"],
     activities: [
       {
-        event: "Visiting",
+        event: "Exploring Exhibits",
         date: "Anytime",
       },
       {
-        event: "Pageant",
-        date: "July",
-      },
-    ],
-    url: "https://www.hillcumorah.org/",
-    want: ["/users/kman.png"],
-    been: [""],
-    slug: "Hill Cumorah",
-  },
-  {
-    name: "Statue of Liberty",
-    address: {
-      country: "United States",
-      state: "New York",
-      city: "New York City",
-      street: "Liberty Island",
-    },
-    location: {
-      latitude: 40.6892,
-      longitude: -74.0445,
-    },
-    type: ["Monument", "Landmark"],
-    activities: [
-      {
-        event: "Sightseeing",
+        event: "Learning about the History of Mental Health Treatment",
         date: "Anytime",
       },
-      {
-        event: "Crown Access",
-        date: "Reservation Required",
-      },
     ],
-    url: "https://www.nps.gov/stli/index.htm",
-    want: ["/users/kman.png"],
-    been: [""],
-    slug: "Statue of Liberty",
+    url: "https://www.stjosephmuseum.org/glore-psychiatric-museum",
+    want: [""],
+    been: ["/users/kman.png"],
+    slug: "Glore Psychiatric Museum",
   },
+
   {
     name: "Enchanted Rock",
     address: {
@@ -279,118 +775,7 @@ export default [
     been: [""],
     slug: "Fort Worth Water Gardens",
   },
-  {
-    name: "Bass Pro Shop Memphis",
-    address: {
-      country: "United States",
-      state: "Tennessee",
-      city: "Memphis",
-      street: "1 Bass Pro Dr",
-    },
-    location: {
-      latitude: 35.1552,
-      longitude: -90.0421,
-    },
-    type: ["Retail", "Outdoor Recreation"],
-    activities: [
-      {
-        event: "Shopping",
-        date: "Anytime",
-      },
-      {
-        event: "Fishing",
-        date: "Anytime",
-      },
-    ],
-    url: "https://www.basspro.com/shop/en/memphis",
-    want: ["/users/kman.png"],
-    been: [""],
-    slug: "Bass Pro Shop Memphis",
-  },
-  {
-    name: "Niagara Falls",
-    address: {
-      country: "United States",
-      state: "New York",
-      city: "Niagara Falls",
-      street: "",
-    },
-    location: {
-      latitude: 43.0828,
-      longitude: -79.0742,
-    },
-    type: ["Natural Landmark", "Waterfall"],
-    activities: [
-      {
-        event: "Boat Tour",
-        date: "Anytime",
-      },
-      {
-        event: "Observation",
-        date: "Anytime",
-      },
-    ],
-    url: "https://www.niagarafallsstatepark.com/",
-    want: ["/users/kman.png"],
-    been: [""],
-    slug: "Niagara Falls",
-  },
-  {
-    name: "Sacred Grove",
-    address: {
-      country: "United States",
-      state: "New York",
-      city: "Palmyra",
-      street: "6450 NY-21",
-    },
-    location: {
-      latitude: 43.0493,
-      longitude: -77.2401,
-    },
-    type: ["Historical Site", "Religious"],
-    activities: [
-      {
-        event: "Visiting",
-        date: "Anytime",
-      },
-      {
-        event: "Reflection",
-        date: "Anytime",
-      },
-    ],
-    url: "https://www.churchofjesuschrist.org/locations/sacred-grove?lang=eng",
-    want: ["/users/kman.png"],
-    been: [""],
-    slug: "Sacred Grove",
-  },
-  {
-    name: "Mid-America Science Museum",
-    address: {
-      country: "United States",
-      state: "Arkansas",
-      city: "Hot Springs",
-      street: "500 Mid America Blvd",
-    },
-    location: {
-      latitude: 34.4686,
-      longitude: -93.0998,
-    },
-    type: ["Science Museum", "Interactive Exhibits"],
-    activities: [
-      {
-        event: "Exploring Exhibits",
-        date: "Anytime",
-      },
-      {
-        event: "Participating in Hands-On Activities",
-        date: "Anytime",
-      },
-    ],
-    url: "https://www.midamericamuseum.org/",
-    want: [""],
-    been: ["/users/kman.png"],
-    slug: "Mid-America Science Museum",
-  },
+
   {
     name: "McDonald Observatory",
     address: {
@@ -475,202 +860,7 @@ export default [
     been: ["/users/kman.png"],
     slug: "Starbase",
   },
-  {
-    name: "Lost River Cave Boat Tours",
-    address: {
-      country: "United States",
-      state: "Kentucky",
-      city: "Bowling Green",
-      street: "2818 Nashville Rd",
-    },
-    location: {
-      latitude: 36.9482,
-      longitude: -86.4467,
-    },
-    type: ["Cave", "Boat Tour"],
-    activities: [
-      {
-        event: "Guided Boat Tour",
-        date: "Anytime",
-      },
-      {
-        event: "Exploring Cave Formations",
-        date: "Anytime",
-      },
-    ],
-    url: "https://lostrivercave.org/",
-    want: ["/users/kman.png"],
-    been: [""],
-    slug: "Lost River Cave Boat Tours",
-  },
-  {
-    name: "Crystal Onyx Cave",
-    address: {
-      country: "United States",
-      state: "Arkansas",
-      city: "Cave City",
-      street: "1443 AR-167",
-    },
-    location: {
-      latitude: 35.9281,
-      longitude: -91.5672,
-    },
-    type: ["Cave", "Guided Tour"],
-    activities: [
-      {
-        event: "Guided Cave Tour",
-        date: "Anytime",
-      },
-      {
-        event: "Exploring Cave Formations",
-        date: "Anytime",
-      },
-    ],
-    url: "https://www.crystalonyxcave.com/",
-    want: ["/users/kman.png"],
-    been: [""],
-    slug: "Crystal Onyx Cave",
-  },
-  {
-    name: "Crater of Diamonds State Park",
-    address: {
-      country: "United States",
-      state: "Arkansas",
-      city: "Murfreesboro",
-      street: "209 State Park Rd",
-    },
-    location: {
-      latitude: 34.0379,
-      longitude: -93.6804,
-    },
-    type: ["State Park", "Diamond Mine"],
-    activities: [
-      {
-        event: "Diamond Hunting",
-        date: "Anytime",
-      },
-      {
-        event: "Exploring Park Trails",
-        date: "Anytime",
-      },
-    ],
-    url: "https://www.arkansasstateparks.com/parks/crater-diamonds-state-park",
-    want: ["/users/kman.png"],
-    been: [""],
-    slug: "Crater of Diamonds State Park",
-  },
-  {
-    name: "Kentucky Down Under Adventure Cave",
-    address: {
-      country: "United States",
-      state: "Kentucky",
-      city: "Horse Cave",
-      street: "3700 L and N Turnpike Rd",
-    },
-    location: {
-      latitude: 37.1533,
-      longitude: -85.9038,
-    },
-    type: ["Adventure Park", "Cave Tour"],
-    activities: [
-      {
-        event: "Guided Cave Tour",
-        date: "Anytime",
-      },
-      {
-        event: "Interacting with Australian Animals",
-        date: "Anytime",
-      },
-    ],
-    url: "https://www.kdu.com/",
-    want: ["/users/kman.png"],
-    been: [""],
-    slug: "Kentucky Down Under Adventure Cave",
-  },
-  {
-    name: "Glore Psychiatric Museum",
-    address: {
-      country: "United States",
-      state: "Missouri",
-      city: "St. Joseph",
-      street: "3406 Frederick Ave",
-    },
-    location: {
-      latitude: 39.7591,
-      longitude: -94.8222,
-    },
-    type: ["Psychiatric Museum", "Medical History"],
-    activities: [
-      {
-        event: "Exploring Exhibits",
-        date: "Anytime",
-      },
-      {
-        event: "Learning about the History of Mental Health Treatment",
-        date: "Anytime",
-      },
-    ],
-    url: "https://www.stjosephmuseum.org/glore-psychiatric-museum",
-    want: [""],
-    been: ["/users/kman.png"],
-    slug: "Glore Psychiatric Museum",
-  },
-  {
-    name: "Royal Gorge",
-    address: {
-      country: "United States",
-      state: "Colorado",
-      city: "Canon City",
-      street: "",
-    },
-    location: {
-      latitude: 38.461,
-      longitude: -105.3255,
-    },
-    type: ["Gorge", "Scenic Views"],
-    activities: [
-      {
-        event: "Riding the Royal Gorge Route Railroad",
-        date: "Anytime",
-      },
-      {
-        event: "Walking across the Royal Gorge Bridge",
-        date: "Anytime",
-      },
-    ],
-    url: "https://royalgorgebridge.com/",
-    want: [""],
-    been: ["/users/kman.png"],
-    slug: "Royal Gorge",
-  },
-  {
-    name: "Crescent Hotel",
-    address: {
-      country: "United States",
-      state: "Arkansas",
-      city: "Eureka Springs",
-      street: "75 Prospect Ave",
-    },
-    location: {
-      latitude: 36.4053,
-      longitude: -93.7376,
-    },
-    type: ["Historic Hotel", "Haunted"],
-    activities: [
-      {
-        event: "Staying at the Hotel",
-        date: "Anytime",
-      },
-      {
-        event: "Ghost Tour",
-        date: "Anytime",
-      },
-    ],
-    url: "https://www.crescent-hotel.com/",
-    want: [""],
-    been: ["/users/kman.png"],
-    slug: "Crescent Hotel",
-  },
+
   {
     name: "Bishop's Castle",
     address: {
@@ -727,34 +917,7 @@ export default [
     been: [""],
     slug: "Cave of Swallows",
   },
-  {
-    name: "Thorncrown Chapel",
-    address: {
-      country: "United States",
-      state: "Arkansas",
-      city: "Eureka Springs",
-      street: "12968 US-62",
-    },
-    location: {
-      latitude: 36.4013,
-      longitude: -93.7632,
-    },
-    type: ["Chapel", "Architectural Landmark"],
-    activities: [
-      {
-        event: "Visiting the Chapel",
-        date: "Anytime",
-      },
-      {
-        event: "Attending a Wedding or Event",
-        date: "Depends on the Event",
-      },
-    ],
-    url: "https://www.thorncrown.com/",
-    want: [""],
-    been: ["/users/kman.png"],
-    slug: "Thorncrown Chapel",
-  },
+
   {
     name: "Blue Grotto",
     address: {
@@ -952,7 +1115,7 @@ export default [
     ],
     url: "",
     want: [""],
-    been: ["/users/kman.png"],
+    been: ["/users/kman.png", "/users/ocho.png"],
     slug: "Salt Lake Temple",
   },
   {
@@ -1011,70 +1174,7 @@ export default [
     been: ["/users/kman.png"],
     slug: "Alamo",
   },
-  {
-    name: "Falls Creek Falls Swimming Hole",
-    address: {
-      country: "United States",
-      state: "Tennessee",
-      city: "Carson Springs",
-      street: "",
-    },
-    location: {
-      latitude: 35.2069,
-      longitude: -84.6221,
-    },
-    type: ["Natural Swimming Hole", "Waterfall"],
-    activities: [
-      {
-        event: "Swimming",
-        date: "Depends on the Season",
-      },
-      {
-        event: "Hiking",
-        date: "Depends on the Season",
-      },
-      {
-        event: "Picnicking",
-        date: "Depends on the Season",
-      },
-    ],
-    url: "",
-    want: ["/users/kman.png"],
-    been: [""],
-    slug: "Falls Creek Falls Swimming Hole",
-  },
-  {
-    name: "Hot Springs National Park",
-    address: {
-      country: "United States",
-      state: "Arkansas",
-      city: "Hot Springs",
-      street: "",
-    },
-    location: {
-      latitude: 34.5211,
-      longitude: -93.0422,
-    },
-    type: ["National Park", "Hot Springs", "Historic Site"],
-    activities: [
-      {
-        event: "Enjoying thermal springs",
-      },
-      {
-        event: "Exploring Bathhouse Row",
-      },
-      {
-        event: "Hiking",
-      },
-      {
-        event: "Scenic drives",
-      },
-    ],
-    url: "https://www.nps.gov/hosp/index.htm",
-    want: ["/users/kman.png"],
-    been: [],
-    slug: "Hot Springs National Park",
-  },
+
   {
     name: "Trans-Allegheny Lunatic Asylum",
     address: {
@@ -1107,38 +1207,7 @@ export default [
     been: [],
     slug: "Trans-Allegheny Lunatic Asylum",
   },
-  {
-    name: "Hidden River Cave and the American Cave Museum",
-    address: {
-      country: "United States",
-      state: "Kentucky",
-      city: "Horse Cave",
-      street: "119 East Main Street",
-    },
-    location: {
-      latitude: 37.1787,
-      longitude: -85.9056,
-    },
-    type: ["Cave", "Museum"],
-    activities: [
-      {
-        event: "Guided Cave Tours",
-      },
-      {
-        event: "Educational Exhibits",
-      },
-      {
-        event: "Interactive Displays",
-      },
-      {
-        event: "Gift Shop",
-      },
-    ],
-    url: "https://www.hiddenrivercave.com/",
-    want: ["/users/kman.png"],
-    been: [],
-    slug: "Hidden River Cave and the American Cave Museum",
-  },
+
   {
     name: "Adam-Ondi-Ahman",
     address: {
@@ -1392,5 +1461,172 @@ export default [
     want: [],
     been: ["/users/kman.png"],
     slug: "Old Nauvoo",
+  },
+  {
+    name: "Bridal Veil Falls",
+    address: {
+      country: "United States",
+      state: "Utah",
+      city: "Provo",
+      street: "Bridal Veil Falls Road",
+    },
+    location: {
+      latitude: 40.3632,
+      longitude: -111.5907,
+    },
+    type: ["Waterfall", "Scenic Spot"],
+    activities: [
+      {
+        event: "Hiking",
+      },
+      {
+        event: "Photography",
+      },
+      {
+        event: "Picnicking",
+      },
+      {
+        event: "Nature Walks",
+      },
+    ],
+    url: "https://www.utahvalley.com/things-to-do/outdoor-recreation/waterfalls/bridal-veil-falls/",
+    want: [],
+    been: ["/users/kman.png", "/users/ocho.png"],
+    slug: "bridal-veil-falls",
+  },
+  {
+    name: "Timpanogos Cave",
+    address: {
+      country: "United States",
+      state: "Utah",
+      city: "American Fork",
+      street: "Cave Fork Road",
+    },
+    location: {
+      latitude: 40.4318,
+      longitude: -111.7123,
+    },
+    type: ["Cave", "Tourist Attraction"],
+    activities: [
+      {
+        event: "Cave Tours",
+      },
+      {
+        event: "Hiking",
+      },
+      {
+        event: "Nature Exploration",
+      },
+      {
+        event: "Picnicking",
+      },
+    ],
+    url: "https://www.nps.gov/tica/index.htm",
+    want: [],
+    been: ["/users/kman.png"],
+    slug: "timpanogos-cave",
+  },
+  {
+    name: "Center of the Universe",
+    address: {
+      country: "United States",
+      state: "Oklahoma",
+      city: "Tulsa",
+      street: "Boston Avenue Pedestrian Bridge",
+    },
+    location: {
+      latitude: null,
+      longitude: null,
+    },
+    type: ["Tourist Attraction"],
+    activities: [
+      {
+        event: "Experience Acoustic Anomaly",
+      },
+      {
+        event: "Observation",
+      },
+      {
+        event: "Photography",
+      },
+      {
+        event: "Enjoy Scenic Views",
+      },
+    ],
+    url: "",
+    want: [],
+    been: ["/users/kman.png"],
+    slug: "center-of-the-universe",
+  },
+  {
+    name: "Lake Tahoe",
+    address: {
+      country: "United States",
+      state: "California",
+      city: "South Lake Tahoe",
+      street: "",
+    },
+    location: {
+      latitude: 39.0968,
+      longitude: -120.0324,
+    },
+    type: ["Lake", "Natural Landmark"],
+    activities: [
+      {
+        event: "Swimming",
+      },
+      {
+        event: "Boating",
+      },
+      {
+        event: "Fishing",
+      },
+      {
+        event: "Hiking",
+      },
+      {
+        event: "Skiing",
+      },
+      {
+        event: "Snowboarding",
+      },
+    ],
+    url: "https://www.visitinglaketahoe.com/",
+    want: [],
+    been: ["/users/kman.png"],
+    slug: "lake-tahoe",
+  },
+
+  {
+    name: "Tomb of General José Gervasio Artigas",
+    address: {
+      country: "Uruguay",
+      state: "",
+      city: "Montevideo",
+      street: "Plaza Independencia",
+    },
+    location: {
+      latitude: -34.9075,
+      longitude: -56.2036,
+    },
+    type: ["Historical Landmark", "Monument"],
+    activities: [
+      {
+        event: "Sightseeing",
+      },
+      {
+        event: "Historical Tours",
+      },
+      {
+        event: "Patriotic Ceremonies",
+      },
+      {
+        event: "Cultural Events",
+      },
+    ],
+    url: "https://en.wikipedia.org/wiki/Tomb_of_General_Jos%C3%A9_Gervasio_Artigas",
+    want: [],
+    been: ["/users/kman.png"],
+    slug: "tomb-of-general-jose-gervasio-artigas",
   },
 ];

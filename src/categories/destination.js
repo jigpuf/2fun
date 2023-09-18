@@ -28,6 +28,12 @@ const Destination = () => {
         </li>
       );
     });
+    const distance = (
+      <Distance
+        latitude={item.location.latitude}
+        longitude={item.location.longitude}
+      />
+    );
     return (
       <tr>
         <td>
@@ -51,12 +57,7 @@ const Destination = () => {
           {item.address.country}, {item.address.state}, {item.address.city},
           {item.address.street}
         </td>
-        <td>
-          <Distance
-            latitude={item.location.latitude}
-            longitude={item.location.longitude}
-          />
-        </td>
+        <td>{distance}</td>
       </tr>
     );
   });
@@ -67,7 +68,26 @@ const Destination = () => {
           <tr>
             <th>Location</th>
             <th>URL</th>
-            <th>Wish</th>
+            <th>
+              Wish
+              <details>
+                <summary>People:</summary>
+                <label for="checkbox1">Kman</label>
+                <input
+                  type="checkbox"
+                  id="checkbox1"
+                  name="language1"
+                  value="english"
+                />
+                <label for="checkbox2">Ocho</label>
+                <input
+                  type="checkbox"
+                  id="checkbox2"
+                  name="language2"
+                  value="Spanish"
+                />
+              </details>
+            </th>
             <th>Been</th>
             <th>Type</th>
             <th>Fun</th>
