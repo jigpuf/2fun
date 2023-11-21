@@ -775,7 +775,34 @@ export default [
     been: [""],
     slug: "Fort Worth Water Gardens",
   },
-
+  {
+    name: "Coral Castle",
+    address: {
+      country: "United States",
+      state: "Florida",
+      city: "Homestead",
+      street: "28655 S Dixie Hwy",
+    },
+    location: {
+      latitude: 25.5003,
+      longitude: -80.4447,
+    },
+    type: ["Historical Landmark"],
+    activities: [
+      {
+        event: "Exploring",
+        date: "Anytime",
+      },
+      {
+        event: "Learning about the history",
+        date: "Anytime",
+      },
+    ],
+    url: "https://www.coralcastle.com/",
+    want: [""],
+    been: ["/users/kman.png"],
+    slug: "Coral Castle",
+  },
   {
     name: "McDonald Observatory",
     address: {

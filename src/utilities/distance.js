@@ -83,7 +83,21 @@ const Distance = (props) => {
       {distance ? (
         <p>
           Distance: {convertKmToMiles(distance)}
-          <span class="cardinal">|{getCardinalDirection(direction)}</span>
+          <span className="cardinal">
+            |{getCardinalDirection(direction)}| {direction.toFixed(0)}° |{" "}
+            <div>
+              <img
+                style={{
+                  display: "block;",
+                  width: "30%",
+                  height: "auto",
+                  transform: `rotate(${direction}deg)`,
+                  position: "relative",
+                }}
+                src="/arrow.png"
+              ></img>
+            </div>
+          </span>
         </p>
       ) : (
         <p>Calculating distance and direction...</p>
