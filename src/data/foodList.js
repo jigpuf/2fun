@@ -9,8 +9,8 @@ export default [
     },
     location: { latitude: 31.4252, longitude: -97.7515 },
     type: ["Pizza"],
-    favorites: ["Pizza", "Garlic Knots"],
-    nasty: [""],
+    favorites: ["Pizza", "Cheese Bread"],
+    nasty: ["Wings"],
     slug: "Studebakers-Pizza",
   },
 ];

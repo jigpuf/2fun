@@ -7,6 +7,12 @@ const Food = () => {
     const type = item.type.map((type) => {
       return <li>{type}</li>;
     });
+    const best = item.favorites.map((item) => {
+      return <li>{item}</li>;
+    });
+    const nasty = item.nasty.map((item) => {
+      return <li>{item}</li>;
+    });
     const distance = (
       <Distance
         latitude={item.location.latitude}
@@ -23,14 +29,18 @@ const Food = () => {
             <img width="100%" src="/url.png"></img>
           </a>
         </td>
-
         <td>
           <ul>{type}</ul>
         </td>
-
         <td>
           {item.address.country}, {item.address.state}, {item.address.city},
           {item.address.street}
+        </td>
+        <td>
+          <ul>{best}</ul>
+        </td>
+        <td>
+          <ul>{nasty}</ul>
         </td>
         <td>{distance}</td>
       </tr>
@@ -41,11 +51,13 @@ const Food = () => {
       <table class="floating-table">
         <thead>
           <tr>
-            <th>Location</th>
+            <th>Restaurant</th>
             <th>URL</th>
 
             <th>Type</th>
             <th>Address</th>
+            <th>Good</th>
+            <th>Nasty</th>
             <th>Distance</th>
           </tr>
         </thead>

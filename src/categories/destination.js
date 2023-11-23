@@ -79,6 +79,7 @@ const Destination = () => {
                   name="language1"
                   value="english"
                 />
+                <br />
                 <label for="checkbox2">Ocho</label>
                 <input
                   type="checkbox"
