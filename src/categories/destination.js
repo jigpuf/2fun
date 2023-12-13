@@ -3,6 +3,7 @@ import destinations from "../data/destinationList.js";
 import Distance from "../utilities/distance.js";
 
 const Destination = () => {
+  
   const rowbuilder = destinations.map((item) => {
     const wants = item.want.map((person) => {
       return (
