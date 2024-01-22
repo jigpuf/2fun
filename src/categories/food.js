@@ -13,16 +13,22 @@ const Food = () => {
     const nasty = item.nasty.map((item) => {
       return <li>{item}</li>;
     });
+    const likes = item.like.map((like) => {
+      return <img src={like} style={{ width: "30px" }}></img>;
+    });
     const distance = (
       <Distance
         latitude={item.location.latitude}
         longitude={item.location.longitude}
       />
     );
+
     return (
       <tr>
         <td>
           <strong>{item.restaurant}</strong>
+          <br />
+          {likes}
         </td>
         <td width="5%">
           <a href={item.url} target="_blank">
