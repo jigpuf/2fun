@@ -1174,6 +1174,34 @@ export default [
     slug: "Coudersport Ice Mine",
   },
   {
+    name: "D&D Park Jeremy Rochman Memorial",
+    address: {
+      country: "United States",
+      state: "Illinois",
+      city: "Carbondale",
+      street: "31 Homewood Dr",
+    },
+    location: {
+      latitude: 37.6875,
+      longitude: -89.1753,
+    },
+    type: [""],
+    activities: [
+      {
+        event: "",
+        date: "",
+      },
+      {
+        event: "",
+        date: "",
+      },
+    ],
+    url: "https://boocastlepark.com/",
+    want: [""],
+    been: ["/users/kman.png"],
+    slug: "d&dpark",
+  },
+  {
     name: "Alamo",
     address: {
       country: "United States",
@@ -1201,7 +1229,34 @@ export default [
     been: ["/users/kman.png"],
     slug: "Alamo",
   },
-
+  {
+    name: "Gerald D. Hines Waterwall Park",
+    address: {
+      country: "United States",
+      state: "Texas",
+      city: "Houston",
+      street: "2800 Post Oak Blvd",
+    },
+    location: {
+      latitude: 29.7375,
+      longitude: -95.4353,
+    },
+    type: [""],
+    activities: [
+      {
+        event: "",
+        date: "Anytime",
+      },
+      {
+        event: "",
+        date: "",
+      },
+    ],
+    url: " https://www.uptown-houston.com/locations/galleria-area/water-wall",
+    want: [""],
+    been: ["/users/kman.png"],
+    slug: "Waterwall",
+  },
   {
     name: "Trans-Allegheny Lunatic Asylum",
     address: {
