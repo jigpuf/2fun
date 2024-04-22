@@ -50,6 +50,22 @@ export default [
     like: ["/users/kman.png"],
   },
   {
+    restaurant: "Hawkers",
+    url: "https://eathawkers.com/",
+    address: {
+      country: "United States",
+      state: "Texas",
+      city: "Dallas",
+      street: "5100 Belt Line Rd #430",
+    },
+    location: { latitude: 32.951, longitude: -96.82 },
+    type: ["Japanese", "Sushi", "Asian Fusion"],
+    favorites: ["Ribs", "Korean Wings", "Blgogi", "Udon", "Basil rice"],
+    nasty: [""],
+    slug: "hawkersDallas",
+    like: ["/users/kman.png"],
+  },
+  {
     restaurant: "Kumori",
     url: "https://kumorisushi.com/menu/",
     address: {

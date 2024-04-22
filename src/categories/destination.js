@@ -2,8 +2,7 @@ import React from "react";
 import destinations from "../data/destinationList.js";
 import Distance from "../utilities/distance.js";
 
-const Destination = () => {
-  
+const Destination = (props) => {
   const rowbuilder = destinations.map((item) => {
     const wants = item.want.map((person) => {
       return (
@@ -35,6 +34,7 @@ const Destination = () => {
         longitude={item.location.longitude}
       />
     );
+    ///////
     return (
       <tr>
         <td>
@@ -69,27 +69,7 @@ const Destination = () => {
           <tr>
             <th>Location</th>
             <th>URL</th>
-            <th>
-              Wish
-              <details>
-                <summary>People:</summary>
-                <label for="checkbox1">Kman</label>
-                <input
-                  type="checkbox"
-                  id="checkbox1"
-                  name="language1"
-                  value="english"
-                />
-                <br />
-                <label for="checkbox2">Ocho</label>
-                <input
-                  type="checkbox"
-                  id="checkbox2"
-                  name="language2"
-                  value="Spanish"
-                />
-              </details>
-            </th>
+            <th>Wish</th>
             <th>Been</th>
             <th>Type</th>
             <th>Fun</th>

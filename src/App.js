@@ -14,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <Nav openTab={openTab} activeTab={activeTab} />
+
       <Main activeTab={activeTab} />
     </div>
   );
