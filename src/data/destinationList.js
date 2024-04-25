@@ -1,5 +1,197 @@
 export default [
   {
+    name: "Pearl Harbor",
+    address: {
+      country: "United States",
+      state: "Hawaii",
+      city: "Pearl Harbor",
+      street: "",
+    },
+    location: {
+      latitude: 21.3511,
+      longitude: -157.9797,
+    },
+    type: ["War History"],
+    activities: [
+      {
+        event: "Tour",
+        date: "Anytime",
+      },
+    ],
+    url: "",
+    want: [""],
+    been: ["/users/kman.png"],
+    slug: "Pearl Harbor",
+  },
+  {
+    name: "St. Peter's Basilica",
+    address: {
+      country: "Vatican City",
+      state: "",
+      city: "Vatican City",
+      street: "",
+    },
+    location: {
+      latitude: 41.9021,
+      longitude: 12.4547,
+    },
+    type: ["Ancient Wonder"],
+    activities: [
+      {
+        event: "Tour",
+        date: "Anytime",
+      },
+    ],
+    url: "",
+    want: ["/users/kman.png"],
+    been: [""],
+    slug: "Bascilica",
+  },
+  {
+    name: "Parthenon",
+    address: {
+      country: "Greece",
+      state: "",
+      city: "Athens",
+      street: "",
+    },
+    location: {
+      latitude: 37.971,
+      longitude: 23.727,
+    },
+    type: ["Ancient Wonder"],
+    activities: [
+      {
+        event: "Tour",
+        date: "Anytime",
+      },
+    ],
+    url: "http://odysseus.culture.gr/h/2/gh251.jsp?obj_id=912",
+    want: ["/users/kman.png"],
+    been: [""],
+    slug: "Parthenon",
+  },
+  {
+    name: "Manti Temple",
+    address: {
+      country: "United States",
+      state: "Utah",
+      city: "Manti",
+      street: "200 East 510 North",
+    },
+    location: {
+      latitude: 39.2731,
+      longitude: -111.6337,
+    },
+    type: ["Temple"],
+    activities: [
+      {
+        event: "Endowment",
+        date: "Anytime",
+      },
+    ],
+    url: "https://en.wikipedia.org/wiki/Manti_Utah_Temple",
+    want: ["/users/kman.png"],
+    been: [""],
+    slug: "Manti",
+  },
+  {
+    name: "The Great Pyramid of Giza",
+    address: {
+      country: "Egypt",
+      state: "",
+      city: "Giza",
+      street: "",
+    },
+    location: {
+      latitude: 29.9792,
+      longitude: 31.1336,
+    },
+    type: ["Ancient Wonder"],
+    activities: [
+      {
+        event: "Tour the Pyramid",
+        date: "Anytime",
+      },
+    ],
+    url: "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
+    want: ["/users/kman.png"],
+    been: [""],
+    slug: "Giza",
+  },
+  {
+    name: "Balmorhea State Park",
+    address: {
+      country: "United States",
+      state: "Texas",
+      city: "Toyahvale",
+      street: "9207 TX-17",
+    },
+    location: {
+      latitude: 30.9444,
+      longitude: -103.7861,
+    },
+    type: ["Swimming hole"],
+    activities: [
+      {
+        event: "Swim in spring fed pool",
+        date: "Anytime",
+      },
+    ],
+    url: "https://tpwd.texas.gov/state-parks/balmorhea",
+    want: [""],
+    been: ["/users/kman.png"],
+    slug: "Balmoreah",
+  },
+  {
+    name: "Jacob's Well Texas",
+    address: {
+      country: "United States",
+      state: "Texas",
+      city: "Jacob's Well",
+      street: "",
+    },
+    location: {
+      latitude: 30.036,
+      longitude: -98.1394,
+    },
+    type: ["Natural Place"],
+    activities: [
+      {
+        event: "Deep water hole",
+        date: "Anytime",
+      },
+    ],
+    url: "https://en.wikipedia.org/wiki/Jacob's_Well_(Texas)",
+    want: ["/users/kman.png"],
+    been: [""],
+    slug: "Jacob's Well",
+  },
+  {
+    name: "Dead Man's Hole",
+    address: {
+      country: "United States",
+      state: "Texas",
+      city: "Marble Falls",
+      street: "Rd 401",
+    },
+    location: {
+      latitude: 30.5293,
+      longitude: -98.265,
+    },
+    type: ["15 story Hole"],
+    activities: [
+      {
+        event: "Look in a hole",
+        date: "Anytime",
+      },
+    ],
+    url: "https://www.tshaonline.org/handbook/entries/dead-mans-hole",
+    want: ["/users/kman.png"],
+    been: [""],
+    slug: "Dead Man's Hole",
+  },
+  {
     name: "Crater of Diamonds State Park",
     address: {
       country: "United States",

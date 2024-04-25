@@ -50,6 +50,24 @@ export default [
     like: ["/users/kman.png"],
   },
   {
+    restaurant: "Blacks Barbecue",
+    url: "https://www.blacksbbq.com/locations/austin",
+    address: {
+      country: "United States",
+      state: "Texas",
+      city: "Austin",
+      street: "3110 Guadalupe St",
+      postalCode: "78705",
+    },
+    location: { latitude: 30.298, longitude: -97.7412 },
+    type: ["Barbecue"],
+    favorites: ["Brisket"],
+    nasty: [""],
+    slug: "blacksAustin",
+    like: ["/users/kman.png"],
+  },
+
+  {
     restaurant: "Hawkers",
     url: "https://eathawkers.com/",
     address: {

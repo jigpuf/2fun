@@ -1,16 +1,15 @@
 import React, { useEffect, useState } from "react";
 import calculateDistance from "../utilities/calculateDistance.js";
 import calculateDirection from "../utilities/calculateDirection.js";
-import food from "../data/foodList.js";
-
-const Food = (props) => {
+import hotels from "../data/hotelList.js";
+const Hotels = (props) => {
   const [array, setArray] = useState([]);
   const latitude = props.latitude;
   const longitude = props.longitude;
 
   useEffect(() => {
     if (latitude && longitude) {
-      const updatedArray = food.map((item) => {
+      const updatedArray = hotels.map((item) => {
         const distance = calculateDistance(
           latitude,
           longitude,
@@ -45,27 +44,13 @@ const Food = (props) => {
   };
 
   const rows = array.map((item) => {
-    const types = item.type.map((type) => {
-      return <li>{type}</li>;
-    });
-
-    const favorites = item.favorites.map((item) => {
-      return <li>{item}</li>;
-    });
-    const nasty = item.nasty.map((item) => {
-      return <li>{item}</li>;
-    });
-
     return (
       <tr>
         <td>
-          {item.restaurant}{" "}
+          {item.hotel}{" "}
           <a href={item.url} target="_blank" style={{ float: "right" }}>
             <img src="/url.png" style={{ width: "40px" }}></img>
           </a>
-        </td>
-        <td>
-          <ol>{types}</ol>
         </td>
         <td>
           <details>
@@ -76,18 +61,8 @@ const Food = (props) => {
             {item.address.country}
           </details>
         </td>
-        <td>
-          <details>
-            <summary></summary>
-            <ol>{favorites}</ol>
-          </details>
-        </td>
-        <td>
-          <details>
-            <summary></summary>
-            <ol>{nasty}</ol>
-          </details>
-        </td>
+        <td>{item.rating}</td>
+        <td>{item.note}</td>
         <td>
           {item.direction.toFixed(0)}°|
           <strong>{item.distance.toFixed(0)}</strong>mi.|
@@ -111,11 +86,10 @@ const Food = (props) => {
       <table class="floating-table">
         <thead>
           <tr>
-            <th>Restaurant</th>
-            <th>Type</th>
+            <th>Hotel</th>
             <th>Address</th>
-            <th>Good</th>
-            <th>Nasty</th>
+            <th>Rating</th>
+            <th>Note</th>
             <th>Distance</th>
           </tr>
         </thead>
@@ -124,4 +98,4 @@ const Food = (props) => {
     </div>
   );
 };
-export default Food;
+export default Hotels;
