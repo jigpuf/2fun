@@ -1,5 +1,77 @@
 export default [
   {
+    name: "Serpent Mound",
+    address: {
+      country: "United States",
+      state: "Ohio",
+      city: "Peebles",
+      street: "3850 State Route 73",
+    },
+    location: {
+      latitude: 39.0237,
+      longitude: -83.4301,
+    },
+    type: ["Ancient Site"],
+    activities: [
+      {
+        event: "Walk along mound",
+        date: "Anytime",
+      },
+    ],
+    url: "https://www.ohiohistory.org/visit/browse-historical-sites/serpent-mound/",
+    want: ["/users/kman.png"],
+    been: [""],
+    slug: "SerpentMound",
+  },
+  {
+    name: "Sulpher Springs bathroom",
+    address: {
+      country: "United States",
+      state: "Texas",
+      city: "Sulpher Springs",
+      street: "",
+    },
+    location: {
+      latitude: 33.138,
+      longitude: -95.6011,
+    },
+    type: ["Weird Architecture"],
+    activities: [
+      {
+        event: "Toilet with 2-way mirrors",
+        date: "Anytime",
+      },
+    ],
+    url: "#",
+    want: [""],
+    been: ["/users/kman.png"],
+    slug: "PublicBathroom",
+  },
+  {
+    name: "Hopewell Rocks",
+    address: {
+      country: "Canada",
+      state: "New Brunswick",
+      city: "Pearl Harbor",
+      street: "",
+    },
+    location: {
+      latitude: 45.8173,
+      longitude: -64.5787,
+    },
+    type: ["Natural"],
+    activities: [
+      {
+        event: "Highest Tides",
+        date: "Anytime",
+      },
+    ],
+    url: "https://www.nbparks.ca/en/parks/33/hopewell-rocks-provincial-park",
+    want: ["/users/kman.png"],
+    been: [""],
+    slug: "Hopewell Rocks",
+  },
+  {
     name: "Pearl Harbor",
     address: {
       country: "United States",
