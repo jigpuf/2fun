@@ -62,7 +62,13 @@ const Hotels = (props) => {
           </details>
         </td>
         <td>{item.rating}</td>
-        <td>{item.note}</td>
+        <td>
+          <details>
+            {" "}
+            <summary></summary>
+            {item.note}
+          </details>
+        </td>
         <td>
           {item.direction.toFixed(0)}°|
           <strong>{item.distance.toFixed(0)}</strong>mi.|

@@ -1,15 +1,15 @@
 export default [
   {
-    hotel: "",
+    hotel: "Fairfield Inn and Suites",
     url: "",
     address: {
       country: "United States",
       state: "Texas",
-      city: "Gatesville",
-      street: "",
+      city: "Brownsville",
+      street: "804 East Morrison Road",
     },
-    location: { latitude: 0, longitude: 0 },
+    location: { latitude: 25.9663, longitude: -97.5019 },
     rating: "",
-    note: "",
+    note: "Cold Rooms nice Beds, decent Breakfast with good Waffles.  Main downside is the small fridge in the room only cools for 2 hours at a time",
   },
 ];

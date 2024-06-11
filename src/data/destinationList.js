@@ -925,6 +925,102 @@ export default [
     been: [""],
     slug: "Spiro Mounds",
   },
+  {
+    name: "Holy City of the Wichitas",
+    address: {
+      country: "United States",
+      state: "Oklahoma",
+      city: "Lawton",
+      street: "",
+    },
+    location: {
+      latitude: 34.7422,
+      longitude: -98.5915,
+    },
+    type: ["Historical Site"],
+    activities: [
+      {
+        event: "Passion Play",
+        date: "Eater Annually",
+      },
+    ],
+    url: "https://theholycityofthewichitas.org/",
+    want: ["/users/kman.png"],
+    been: [""],
+    slug: "HolyCityLawton",
+  },
+  {
+    name: "Scottish Rite Temple",
+    address: {
+      country: "United States",
+      state: "Oklahoma",
+      city: "Guthrie",
+      street: "900 E Oklahoma Ave",
+    },
+    location: {
+      latitude: 35.8782,
+      longitude: -97.4131,
+    },
+    type: [""],
+    activities: [
+      {
+        event: "",
+        date: "",
+      },
+    ],
+    url: "https://www.guthriescottishrite.org/",
+    want: ["/users/kman.png"],
+    been: [""],
+    slug: "ScottishRiteGuthrie",
+  },
+  {
+    name: "Cavenal Hill",
+    address: {
+      country: "United States",
+      state: "Oklahoma",
+      city: "Poteau",
+      street: "",
+    },
+    location: {
+      latitude: 35.0706,
+      longitude: -94.6794,
+    },
+    type: [""],
+    activities: [
+      {
+        event: "",
+        date: "",
+      },
+    ],
+    url: "https://en.wikipedia.org/wiki/Cavanal_Hill",
+    want: ["/users/kman.png"],
+    been: [""],
+    slug: "CavenalHillPoteau",
+  },
+  {
+    name: "Chickasaw National Recreation Area",
+    address: {
+      country: "United States",
+      state: "Oklahoma",
+      city: "Sulpher",
+      street: "",
+    },
+    location: {
+      latitude: 34.4623,
+      longitude: -97.0068,
+    },
+    type: [""],
+    activities: [
+      {
+        event: "",
+        date: "",
+      },
+    ],
+    url: "https://home.nps.gov/chic/index.htm",
+    want: ["/users/kman.png"],
+    been: [""],
+    slug: "Chickasaw National Recreation Area",
+  },
 
   {
     name: "Glore Psychiatric Museum",
