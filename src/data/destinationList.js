@@ -2071,4 +2071,76 @@ export default [
     been: ["/users/kman.png"],
     slug: "tomb-of-general-jose-gervasio-artigas",
   },
+  {
+    name: "Fort Massachusetts on Ship Island",
+    address: {
+      country: "United States",
+      state: "Mississippi",
+      city: "Gulfport",
+      street: "39501",
+    },
+
+    location: {
+      latitude: 30.2124,
+      longitude: -88.9721,
+    },
+    type: ["Historical Landmark", "Monument"],
+    activities: [
+      {
+        event: "Sightseeing",
+      },
+    ],
+    url: "https://www.nps.gov/guis/learn/historyculture/fort-massachusetts.htm",
+    want: ["/users/kman.png"],
+    been: [],
+    slug: "Fort Massachusetts on Ship Island",
+  },
+  {
+    name: "Fort Pickens",
+    address: {
+      country: "United States",
+      state: "Florida",
+      city: "Pensacola",
+      street: "1400 Fort Pickens Road 32561",
+    },
+
+    location: {
+      latitude: 30.3269,
+      longitude: -87.2908,
+    },
+    type: ["Historical Landmark", "Fort"],
+    activities: [
+      {
+        event: "Sightseeing",
+      },
+    ],
+    url: "https://www.nps.gov/guis/planyourvisit/fort-pickens-area.htm",
+    want: ["/users/kman.png"],
+    been: [],
+    slug: "Fort Pickens",
+  },
+  {
+    name: "Fort Barrancas",
+    address: {
+      country: "United States",
+      state: "Florida",
+      city: "Pensacola",
+      street: "3182 Taylor Rd.",
+    },
+
+    location: {
+      latitude: 30.3479,
+      longitude: -87.2979,
+    },
+    type: ["Historical Landmark", "Fort"],
+    activities: [
+      {
+        event: "Sightseeing",
+      },
+    ],
+    url: "https://www.nps.gov/guis/learn/historyculture/fort-barrancas.htm",
+    want: ["/users/kman.png"],
+    been: [],
+    slug: "Fort Barrancas",
+  },
 ];

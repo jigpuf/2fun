@@ -45,6 +45,15 @@ const Main = (props) => {
       ) : (
         <p>Loading...</p>
       )}
+      <details>
+        Name: <input typeof="text"></input>
+        <br />
+        Type: <input typeof="text"></input>
+        <br />
+        Notes:
+        <input style={{ width: "90%" }} typeof="text-box"></input>
+        <br />
+      </details>
       <nav>
         {activeTab === "food" && (
           <Food latitude={latitude} longitude={longitude} />
