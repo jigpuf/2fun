@@ -5,6 +5,7 @@ const Nav = (props) => {
     { name: "food", slug: "food", src: "/chopsticks.png" },
     { name: "destination", slug: "destination", src: "/compass.png" },
     { name: "hotels", slug: "hotels", src: "/hotel.png" },
+    { name: "gas", slug: "gas", src: "/gas.png" },
   ];
   const renderButtons = buttons.map((item) => {
     return (

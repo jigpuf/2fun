@@ -3,6 +3,7 @@ import City from "./utilities/city.js";
 import Food from "./categories/food.js";
 import Hotels from "./categories/hotels.js";
 import Destination from "./categories/destination.js";
+import Gas from "./categories/gas.js";
 
 const Main = (props) => {
   const [latitude, setLatitude] = useState(null);
@@ -63,6 +64,9 @@ const Main = (props) => {
         )}
         {activeTab === "hotels" && (
           <Hotels latitude={latitude} longitude={longitude} />
+        )}
+        {activeTab === "gas" && (
+          <Gas latitude={latitude} longitude={longitude} />
         )}
       </nav>
     </div>

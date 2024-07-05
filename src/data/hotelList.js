@@ -25,4 +25,17 @@ export default [
     rating: "",
     note: "Pretty Clean, expensive, cold ac",
   },
+  {
+    hotel: "Tru in Tallahassee",
+    url: "https://www.hilton.com/en/hotels/tlhcnru-tru-tallahassee-central/",
+    address: {
+      country: "United States",
+      state: "Florida",
+      city: "Tallahassee",
+      street: "2814 Apalachee Pkwy",
+    },
+    location: { latitude: 30.428, longitude: -84.2362 },
+    rating: "",
+    note: "Clean, somewhat inexpensive, cold ac, tiny fridge not that cold",
+  },
 ];
