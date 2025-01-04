@@ -736,4 +736,21 @@ export default [
     slug: "Bennet BBQ-Gatlinburg",
     like: [""],
   },
+  {
+    restaurant: "Arepitas",
+    url: "https://www.arepitasusa.com/",
+    address: {
+      country: "United States",
+      state: "Texas",
+      city: "Harker Heights",
+      street: "440 E Central Texas Expy, Ste 101",
+      postalCode: "76548",
+    },
+    location: { latitude: 31.0718, longitude: -97.6591 },
+    type: ["BBQ"],
+    favorites: ["Tostones"],
+    nasty: [""],
+    slug: "Arepitas-Harker Heights",
+    like: [""],
+  },
 ];

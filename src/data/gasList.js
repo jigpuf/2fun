@@ -3,7 +3,14 @@ export default [
     name: "QT",
     city: "?",
     location: { latitude: 30.4214, longitude: -89.1377 },
-    slug: "QT-?",
+    slug: "QT-1",
+    note: "",
+  },
+  {
+    name: "QT",
+    city: "Amarillo, Texas",
+    location: { latitude: 35.1937, longitude: -101.7794 },
+    slug: "QT-Amarillo, Texas",
     note: "",
   },
   {
@@ -61,5 +68,12 @@ export default [
     location: { latitude: 29.726255, longitude: -98.078148 },
     slug: "Buc-ee's-New Braunsfels",
     note: "",
+  },
+  {
+    name: "Maverick",
+    city: "Avon, Colorado",
+    location: { latitude: 39.6277, longitude: -106.4933 },
+    slug: "Buc-ee's-New Braunsfels",
+    note: "Clean, good bathrooms, lots of drinks",
   },
 ];

@@ -2143,4 +2143,28 @@ export default [
     been: [],
     slug: "Fort Barrancas",
   },
+  {
+    name: "Sigoldugljufur (Valley of Tears",
+    address: {
+      country: "Iceland",
+      state: "",
+      city: "Reykjavík",
+      street: "",
+    },
+
+    location: {
+      latitude: 64.1579,
+      longitude: 19.1253,
+    },
+    type: ["Waterfalls"],
+    activities: [
+      {
+        event: "Sightseeing",
+      },
+    ],
+    url: "https://guidetoiceland.is/travel-iceland/drive/sigoldugljufur",
+    want: ["/users/kman.png"],
+    been: [],
+    slug: "Sigoldugljufur-Iceland",
+  },
 ];

@@ -38,4 +38,17 @@ export default [
     rating: "",
     note: "Clean, somewhat inexpensive, cold ac, tiny fridge not that cold",
   },
+  {
+    hotel: "Taribino Inn",
+    url: "https://www.hotelsone.com/trinidad-hotels-us/tarabino-inn.html?dsti=75156202&dstt=8&nid=1&as=g&aid=669827633694&cmpid=13983458&agid=149252768781&gid=Cj0KCQiAst67BhCEARIsAKKdWOkB5XbecYwwJyKpk1fFreCsXamt3AnNmngkKH-NuW_XpR0E6tkTZoMaAk6mEALw_wcB&gwbrd=Cj0KCAiAst67BhA6Ei0AWJBiDUs9_rkcZGvwHyFgCOQ0qomxwUbGe-uUntlY5Fkw60JaPPFH9Zu59lQaApPz&ggbrd=0AAAAAD4o1PfdWCxBsUpnyKkEchXrdpWlg&gad_source=1&gclid=Cj0KCQiAst67BhCEARIsAKKdWOkB5XbecYwwJyKpk1fFreCsXamt3AnNmngkKH-NuW_XpR0E6tkTZoMaAk6mEALw_wcB",
+    address: {
+      country: "United States",
+      state: "Colorado",
+      city: "Trinidad",
+      street: "",
+    },
+    location: { latitude: 30.428, longitude: -84.2362 },
+    rating: "",
+    note: "Old house, sometimes cheap",
+  },
 ];
