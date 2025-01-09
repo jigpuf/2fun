@@ -2144,7 +2144,7 @@ export default [
     slug: "Fort Barrancas",
   },
   {
-    name: "Sigoldugljufur (Valley of Tears",
+    name: "Sigoldugljufur (Valley of Tears)",
     address: {
       country: "Iceland",
       state: "",
@@ -2154,7 +2154,7 @@ export default [
 
     location: {
       latitude: 64.1579,
-      longitude: 19.1253,
+      longitude: -19.1253,
     },
     type: ["Waterfalls"],
     activities: [
@@ -2166,5 +2166,53 @@ export default [
     want: ["/users/kman.png"],
     been: [],
     slug: "Sigoldugljufur-Iceland",
+  },
+  {
+    name: "Bláa lónið (Blue Lagoon)",
+    address: {
+      country: "Iceland",
+      state: "",
+      city: "Grindavik",
+      street: "",
+    },
+
+    location: {
+      latitude: 63.88,
+      longitude: -22.448056,
+    },
+    type: ["hot lagoon"],
+    activities: [
+      {
+        event: "",
+      },
+    ],
+    url: "https://www.bluelagoon.com/",
+    want: ["/users/kman.png"],
+    been: [],
+    slug: "Bláa lónið-Iceland",
+  },
+  {
+    name: "Breiðamerkursandur(Diamond Beach)",
+    address: {
+      country: "Iceland",
+      state: "",
+      city: "",
+      street: "",
+    },
+
+    location: {
+      latitude: 64.0443,
+      longitude: -16.1777,
+    },
+    type: ["black sand beach"],
+    activities: [
+      {
+        event: "",
+      },
+    ],
+    url: "https://www.icelandia.com/attractions/diamond-beach",
+    want: ["/users/kman.png"],
+    been: [],
+    slug: "Breiðamerkursandur-Iceland",
   },
 ];
