@@ -24,6 +24,7 @@ const Main = (props) => {
   const activeTab = props.activeTab;
   return (
     <div className="main">
+      hi
       {latitude !== null && longitude !== null ? (
         <table>
           <tr>
