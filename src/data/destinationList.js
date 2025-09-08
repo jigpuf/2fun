@@ -2215,4 +2215,97 @@ export default [
     been: [],
     slug: "Breiðamerkursandur-Iceland",
   },
+  {
+    name: "Mount Olympus",
+    address: {
+      country: "Greece",
+      state: "",
+      city: "",
+      street: "",
+    },
+
+    location: {
+      latitude: 40.1053,
+      longitude: 22.5028,
+    },
+    type: ["Hiking"],
+    activities: [
+      {
+        event: "",
+      },
+    ],
+    url: "https://visitolympus.travel/getting-to-olympus/",
+    want: ["/users/kman.png"],
+    been: [],
+    slug: "Mount Olympus-Greece",
+  },
+  {
+    name: "Acropolis",
+    address: {
+      country: "Greece",
+      state: "",
+      city: "Athens",
+      street: "",
+    },
+
+    location: {
+      latitude: 37.97,
+      longitude: 23.72,
+    },
+    type: [""],
+    activities: [
+      {
+        event: "",
+      },
+    ],
+    url: "https://en.wikipedia.org/wiki/Acropolis_of_Athens",
+    want: ["/users/kman.png"],
+    been: [],
+    slug: "Acropolis-Greece",
+  },
+  {
+    name: "Meteora",
+    address: {
+      country: "Greece",
+      state: "",
+      city: "Kalabaka",
+      street: "",
+    },
+
+    location: {
+      latitude: 39.72,
+      longitude: 21.63,
+    },
+    type: [""],
+    activities: [
+      {
+        event: "",
+      },
+    ],
+    url: "https://en.wikipedia.org/wiki/Meteora",
+    want: ["/users/kman.png"],
+    been: [],
+    slug: "Meteora-Greece",
+  },
 ];
+
+/*
+Greece
+
+Delphi
+Pheramole
+
+Temple of Zeus
+Temple of Poseidon
+Parthenon
+
+Icarea
+Zagori
+Crete
+Nefplion
+Xania Port
+Mt ioa  Snow-mountain
+Pallace of kanosis
+San torini Volcano
+Thesolonica 
+*/
