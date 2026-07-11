@@ -4,6 +4,8 @@ import Food from "./categories/food.js";
 import Hotels from "./categories/hotels.js";
 import Destination from "./categories/destination.js";
 import Gas from "./categories/gas.js";
+import Drink from "./categories/drink.js";
+import Snacks from "./categories/snacks.js";
 
 const Main = (props) => {
   const [latitude, setLatitude] = useState(null);
@@ -17,7 +19,7 @@ const Main = (props) => {
       },
       (error) => {
         console.error("Error getting location:", error);
-      }
+      },
     );
   }, []);
 
@@ -68,6 +70,12 @@ const Main = (props) => {
         )}
         {activeTab === "gas" && (
           <Gas latitude={latitude} longitude={longitude} />
+        )}
+        {activeTab === "snacks" && (
+          <Snacks latitude={latitude} longitude={longitude} />
+        )}
+        {activeTab === "drink" && (
+          <Drink latitude={latitude} longitude={longitude} />
         )}
       </nav>
     </div>
