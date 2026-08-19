@@ -753,4 +753,27 @@ export default [
     slug: "Arepitas-Harker Heights",
     like: [""],
   },
+  {
+    restaurant: "La Fonda",
+    url: "https://monsantbenet.com/ca/restaurants/",
+    address: {
+      country: "Spain",
+      state: "Barcelona",
+      city: "Sant Fruitós de Bages",
+      street: "Camí de Sant Benet, S/N",
+      postalCode: "08272",
+    },
+    location: { latitude: 41.7431, longitude: 1.90066 },
+    type: ["Catalan"],
+    favorites: [
+      "Chocolate Apricot Cake",
+      "Creme Brulee",
+      "Pasta",
+      "Mar i Muntanya de pollastre farcit i gambes",
+      "All i Oli with french fries",
+    ],
+    nasty: ["Cod"],
+    slug: "La Fonda-Sant Fruitós de Bages",
+    like: [""],
+  },
 ];

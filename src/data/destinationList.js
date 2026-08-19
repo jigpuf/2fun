@@ -2287,6 +2287,164 @@ export default [
     been: [],
     slug: "Meteora-Greece",
   },
+  {
+    name: "Basislica de mont serrat",
+    address: {
+      country: "Spain",
+      state: "Barcelona",
+      city: "Monestir de Montserrat",
+      street: "",
+    },
+    location: {
+      latitude: 41.593184,
+      longitude: 1.837386,
+    },
+    type: ["Old"],
+    activities: [
+      {
+        event: "Monk SInging for Vespers nightly",
+      },
+      {
+        event: "Hotel bufet is trash",
+      },
+    ],
+    url: "",
+    want: [""],
+    been: ["/users/kman.png"],
+    slug: "Basislica de mont serrat-Spain",
+  },
+  {
+    name: "Cave of the Black Madonna",
+    address: {
+      country: "Spain",
+      state: "Barcelona",
+      city: "Monestir de Montserrat",
+      street: "",
+    },
+
+    location: {
+      latitude: 41.5877,
+      longitude: 1.8396,
+    },
+    type: ["Old"],
+    activities: [
+      {
+        event:
+          "Hard hike to the cave, but worth it for the view and the history",
+      },
+    ],
+    url: "",
+    want: [""],
+    been: ["/users/kman.png"],
+    slug: "Cave of the Black Madonna-Spain",
+  },
+  {
+    name: "Castell de Morella",
+    address: {
+      country: "Spain",
+      state: "Barcelona",
+      city: "Castello",
+      street: "Carrer de hospital",
+    },
+    location: {
+      latitude: 40.619987,
+      longitude: 0.101934,
+    },
+    type: ["Old Castle"],
+    activities: [
+      {
+        event:
+          "The castle is a historical fortress with stunning views of the surrounding area. Visitors can explore the castle grounds, learn about its history, and enjoy the panoramic vistas.",
+      },
+      {
+        event: "Best Preserved Walled City in Spain",
+      },
+    ],
+    url: "https://www.morella.net/morellaturistica/descubre-morella/monumentos/el-castillo/",
+    want: [""],
+    been: ["/users/kman.png"],
+    slug: "Castell de Morella-Spain",
+  },
+  {
+    name: "Monestir de San Benet de Bages",
+    address: {
+      country: "Spain",
+      state: "Barcelona",
+      city: "Sant Fruitós de Bages",
+      street: "Camí de Sant Benet, s/n",
+    },
+
+    location: {
+      latitude: 41.742487,
+      longitude: 1.898691,
+    },
+    type: ["Old Monestary 1000 years old"],
+    activities: [
+      {
+        event:
+          "Tours including the church, cloister are very cool with good presentations",
+      },
+    ],
+    url: "https://en.wikipedia.org/wiki/Santa_Maria,_Manresa",
+    want: [""],
+    been: ["/users/kman.png"],
+    slug: "Monestir de San Benet de Bages-Spain",
+  },
+  {
+    name: "Basilica of Santa Maria de la Seu de Manresa",
+    address: {
+      country: "Spain",
+      state: "Barcelona",
+      city: "Sant Fruitós de Bages",
+      street: "Camí de Sant Benet, s/n",
+    },
+
+    location: {
+      latitude: 41.721973,
+      longitude: 1.827925,
+    },
+    type: ["OLarge Cathedral, crypt, cloister"],
+    activities: [
+      {
+        event: "TBeutiful large architecture",
+      },
+    ],
+    url: "https://en.wikipedia.org/wiki/Santa_Maria,_Manresa",
+    want: [""],
+    been: ["/users/kman.png"],
+    slug: "Basilica of Santa Maria de la Seu de Manresa-Spain",
+  },
+  {
+    name: "Playa de Peniscola",
+    address: {
+      country: "Spain",
+      state: "Castellon",
+      city: "Paníscola",
+      street: "",
+    },
+
+    location: {
+      latitude: 40.36202,
+      longitude: 0.405717,
+    },
+    type: ["Beach"],
+    activities: [
+      {
+        event: "Beautiful sandy beach with clear waters swim next to castle",
+      },
+      {
+        event:
+          "Don't go durring mid-august durring bull run season. Extremely Busy",
+      },
+      {
+        event: "Topless women is common here",
+      },
+    ],
+    url: "",
+    want: [""],
+    been: ["/users/kman.png"],
+    slug: "Playa de Peniscola-Spain",
+  },
 ];
 
 /*

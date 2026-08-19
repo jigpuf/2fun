@@ -51,4 +51,17 @@ export default [
     rating: "",
     note: "Old house, sometimes cheap",
   },
+  {
+    hotel: "Hotel Mon Sant Benet",
+    url: "https://monsantbenet.com/ca/hotel-mon/?utm_source=google&utm_medium=organic&utm_campaign=myb",
+    address: {
+      country: "Spain",
+      state: "Barcelona",
+      city: "08272 Sant Fruitós de Bages",
+      street: "Camí de Sant Benet, S/N",
+    },
+    location: { latitude: 41.7447, longitude: 1.9001 },
+    rating: "",
+    note: "Near a 1000 year old monestary, Good AC, Nice rooms, Good food nearby at La Fonda, Beutiful part of the country, English speakers, driving distance to cool pllaces. Don't eat at l'O restaurant, expensive and weird",
+  },
 ];
