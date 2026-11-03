@@ -19,8 +19,6 @@ export default [
       },
     ],
     url: "https://www.ohiohistory.org/visit/browse-historical-sites/serpent-mound/",
-    want: ["/users/kman.png"],
-    been: [""],
     slug: "SerpentMound",
   },
   {
@@ -42,9 +40,7 @@ export default [
         date: "Anytime",
       },
     ],
-    url: "#",
-    want: [""],
-    been: ["/users/kman.png"],
+    url: "https://www.visitsulphurspringstx.org/attractions/118/",
     slug: "PublicBathroom",
   },
   {
@@ -67,8 +63,6 @@ export default [
       },
     ],
     url: "https://www.nbparks.ca/en/parks/33/hopewell-rocks-provincial-park",
-    want: ["/users/kman.png"],
-    been: [""],
     slug: "Hopewell Rocks",
   },
   {
@@ -90,9 +84,7 @@ export default [
         date: "Anytime",
       },
     ],
-    url: "",
-    want: [""],
-    been: ["/users/kman.png"],
+    url: "https://www.nps.gov/perl/index.htm",
     slug: "Pearl Harbor",
   },
   {
@@ -114,9 +106,7 @@ export default [
         date: "Anytime",
       },
     ],
-    url: "",
-    want: ["/users/kman.png"],
-    been: [""],
+    url: "https://www.basilicasanpietro.va/en",
     slug: "Bascilica",
   },
   {
@@ -139,8 +129,6 @@ export default [
       },
     ],
     url: "http://odysseus.culture.gr/h/2/gh251.jsp?obj_id=912",
-    want: ["/users/kman.png"],
-    been: [""],
     slug: "Parthenon",
   },
   {
@@ -163,8 +151,6 @@ export default [
       },
     ],
     url: "https://en.wikipedia.org/wiki/Manti_Utah_Temple",
-    want: ["/users/kman.png"],
-    been: [""],
     slug: "Manti",
   },
   {
@@ -187,8 +173,6 @@ export default [
       },
     ],
     url: "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
-    want: ["/users/kman.png"],
-    been: [""],
     slug: "Giza",
   },
   {
@@ -211,8 +195,6 @@ export default [
       },
     ],
     url: "https://tpwd.texas.gov/state-parks/balmorhea",
-    want: [""],
-    been: ["/users/kman.png"],
     slug: "Balmoreah",
   },
   {
@@ -235,8 +217,6 @@ export default [
       },
     ],
     url: "https://en.wikipedia.org/wiki/Jacob's_Well_(Texas)",
-    want: ["/users/kman.png"],
-    been: [""],
     slug: "Jacob's Well",
   },
   {
@@ -259,8 +239,6 @@ export default [
       },
     ],
     url: "https://www.tshaonline.org/handbook/entries/dead-mans-hole",
-    want: ["/users/kman.png"],
-    been: [""],
     slug: "Dead Man's Hole",
   },
   {
@@ -287,8 +265,6 @@ export default [
       },
     ],
     url: "https://www.arkansasstateparks.com/parks/crater-diamonds-state-park",
-    want: [""],
-    been: ["/users/kman.png"],
     slug: "Crater of Diamonds State Park",
   },
 
@@ -303,9 +279,7 @@ export default [
     location: { latitude: 34.241238, longitude: -93.243558 },
     type: ["Nature", "State Park"],
     activities: [{ event: "Yurt Camping", date: "Anytime" }],
-    url: "[URL for Degray Lake Resort State Park]",
-    want: ["/users/kman.png"],
-    been: [""],
+    url: "https://www.arkansasstateparks.com/parks/degray-lake-resort-state-park",
     slug: "Degray Lake Resort State Park",
   },
   {
@@ -332,8 +306,6 @@ export default [
       },
     ],
     url: "https://www.midamericamuseum.org/",
-    want: [""],
-    been: ["/users/kman.png"],
     slug: "Mid-America Science Museum",
   },
   {
@@ -360,8 +332,6 @@ export default [
       },
     ],
     url: "https://www.crescent-hotel.com/",
-    want: [""],
-    been: ["/users/kman.png"],
     slug: "Crescent Hotel",
   },
   {
@@ -388,8 +358,6 @@ export default [
       },
     ],
     url: "https://www.thorncrown.com/",
-    want: [""],
-    been: ["/users/kman.png"],
     slug: "Thorncrown Chapel",
   },
   {
@@ -420,8 +388,6 @@ export default [
       },
     ],
     url: "https://www.nps.gov/hosp/index.htm",
-    want: ["/users/kman.png"],
-    been: [""],
     slug: "Hot Springs National Park",
   },
   {
@@ -448,8 +414,6 @@ export default [
       },
     ],
     url: "https://www.basspro.com/shop/en/memphis",
-    want: [""],
-    been: ["/users/kman.png"],
     slug: "Bass Pro Shop Memphis",
   },
 
@@ -481,8 +445,6 @@ export default [
       },
     ],
     url: "",
-    want: ["/users/kman.png"],
-    been: [""],
     slug: "Falls Creek Falls Swimming Hole",
   },
   {
@@ -519,8 +481,6 @@ export default [
       },
     ],
     url: "https://www.gatlinburg.com/",
-    want: [],
-    been: ["/users/ocho.png"],
     slug: "gatlinburg",
   },
   {
@@ -547,8 +507,6 @@ export default [
       },
     ],
     url: "https://lostrivercave.org/",
-    want: ["/users/kman.png"],
-    been: [""],
     slug: "Lost River Cave Boat Tours",
   },
   {
@@ -575,8 +533,6 @@ export default [
       },
     ],
     url: "https://arkencounter.com/",
-    want: [""],
-    been: ["/users/kman.png"],
     slug: "Ark Encounter",
   },
   {
@@ -591,8 +547,6 @@ export default [
     type: ["Nature", "National Park"],
     activities: [{ event: "Hiking", date: "Anytime" }],
     url: "https://www.nps.gov/maca/index.htm",
-    want: ["/users/kman.png"],
-    been: [""],
     slug: "Mammoth Cave National Park",
   },
 
@@ -619,9 +573,7 @@ export default [
         date: "Anytime",
       },
     ],
-    url: "",
-    want: ["/users/kman.png"],
-    been: [""],
+    url: "https://crystalonyxcaveky.com/",
     slug: "Crystal Onyx Cave",
   },
   {
@@ -652,8 +604,6 @@ export default [
       },
     ],
     url: "https://www.hiddenrivercave.com/",
-    want: ["/users/kman.png"],
-    been: [],
     slug: "Hidden River Cave and the American Cave Museum",
   },
   {
@@ -679,9 +629,7 @@ export default [
         date: "Anytime",
       },
     ],
-    url: "https://www.kdu.com/",
-    want: ["/users/kman.png"],
-    been: [""],
+    url: "https://www.kentuckydownunder.com/",
     slug: "Kentucky Down Under Adventure Cave",
   },
   {
@@ -707,9 +655,7 @@ export default [
         date: "July",
       },
     ],
-    url: "https://www.hillcumorah.org/",
-    want: [""],
-    been: ["/users/kman.png"],
+    url: "https://www.churchofjesuschrist.org/learn/locations/hill-cumorah?lang=eng",
     slug: "Hill Cumorah",
   },
 
@@ -736,9 +682,7 @@ export default [
         date: "Anytime",
       },
     ],
-    url: "https://www.churchofjesuschrist.org/locations/sacred-grove?lang=eng",
-    want: [""],
-    been: ["/users/kman.png"],
+    url: "https://www.churchofjesuschrist.org/learn/locations/sacred-grove?lang=eng",
     slug: "Sacred Grove",
   },
   {
@@ -765,8 +709,6 @@ export default [
       },
     ],
     url: "https://www.nps.gov/stli/index.htm",
-    want: [""],
-    been: ["/users/kman.png"],
     slug: "Statue of Liberty",
   },
   {
@@ -793,8 +735,6 @@ export default [
       },
     ],
     url: "https://www.niagarafallsstatepark.com/",
-    want: [""],
-    been: ["/users/kman.png"],
     slug: "Niagara Falls",
   },
   {
@@ -812,8 +752,6 @@ export default [
       { event: "Ferry", date: "Anytime" },
     ],
     url: "https://www.visitflorida.com/travel-ideas/articles/florida-keys-the-keys-dry-tortugas-national-park/?cid=PS_M8_GPS_&gad=1&gclid=EAIaIQobChMIxseE-_WMgQMVQ1N_AB01kgxXEAAYASAAEgI3pvD_BwE&gclsrc=aw.ds",
-    want: ["/users/kman.png"],
-    been: [""],
     slug: "Dry Tortugas",
   },
   {
@@ -828,8 +766,6 @@ export default [
     type: ["Park", ""],
     activities: [{ event: "Cave", date: "Anytime" }],
     url: "https://www.cavernsofsonora.com/",
-    want: [""],
-    been: ["/users/kman.png"],
     slug: "Sonora Caverns",
   },
   {
@@ -844,8 +780,6 @@ export default [
     type: ["Lake", ""],
     activities: [{ event: "Swimming", date: "Anytime" }],
     url: "https://tpwd.texas.gov/state-parks/lake-whitney",
-    want: [""],
-    been: ["/users/kman.png", "/users/ocho.png"],
     slug: "Lake Whitney",
   },
   {
@@ -859,9 +793,7 @@ export default [
     location: { latitude: 17.7134, longitude: 178.065 },
     type: ["Ocean", ""],
     activities: [{ event: "Swimming", date: "Anytime" }],
-    url: "",
-    want: ["/users/kman.png", "/users/ocho.png"],
-    been: [""],
+    url: "https://www.fiji.travel/",
     slug: "Fiji",
   },
 
@@ -893,8 +825,6 @@ export default [
       },
     ],
     url: "https://royalgorgebridge.com/",
-    want: [""],
-    been: ["/users/kman.png"],
     slug: "Royal Gorge",
   },
   {
@@ -921,8 +851,6 @@ export default [
       },
     ],
     url: "http://www.okhistory.org/sites/spiromounds",
-    want: ["/users/kman.png"],
-    been: [""],
     slug: "Spiro Mounds",
   },
   {
@@ -945,8 +873,6 @@ export default [
       },
     ],
     url: "https://theholycityofthewichitas.org/",
-    want: ["/users/kman.png"],
-    been: [""],
     slug: "HolyCityLawton",
   },
   {
@@ -969,8 +895,6 @@ export default [
       },
     ],
     url: "https://www.guthriescottishrite.org/",
-    want: ["/users/kman.png"],
-    been: [""],
     slug: "ScottishRiteGuthrie",
   },
   {
@@ -993,8 +917,6 @@ export default [
       },
     ],
     url: "https://en.wikipedia.org/wiki/Cavanal_Hill",
-    want: ["/users/kman.png"],
-    been: [""],
     slug: "CavenalHillPoteau",
   },
   {
@@ -1017,8 +939,6 @@ export default [
       },
     ],
     url: "https://home.nps.gov/chic/index.htm",
-    want: ["/users/kman.png"],
-    been: [""],
     slug: "Chickasaw National Recreation Area",
   },
 
@@ -1046,8 +966,6 @@ export default [
       },
     ],
     url: "https://www.stjosephmuseum.org/glore-psychiatric-museum",
-    want: [""],
-    been: ["/users/kman.png"],
     slug: "Glore Psychiatric Museum",
   },
 
@@ -1075,8 +993,6 @@ export default [
       },
     ],
     url: "https://tpwd.texas.gov/state-parks/enchanted-rock",
-    want: [""],
-    been: ["/users/kman.png"],
     slug: "Enchanted Rock",
   },
   {
@@ -1103,8 +1019,6 @@ export default [
       },
     ],
     url: "https://parks.traviscountytx.gov/parks/hamilton-pool-preserve",
-    want: ["/users/kman.png"],
-    been: [""],
     slug: "Hamilton Pool",
   },
   {
@@ -1131,8 +1045,6 @@ export default [
       },
     ],
     url: "https://www.fortworth.com/listings/fort-worth-water-gardens/1232/",
-    want: ["/users/kman.png"],
-    been: [""],
     slug: "Fort Worth Water Gardens",
   },
   {
@@ -1159,8 +1071,6 @@ export default [
       },
     ],
     url: "https://www.coralcastle.com/",
-    want: [""],
-    been: ["/users/kman.png"],
     slug: "Coral Castle",
   },
   {
@@ -1187,8 +1097,6 @@ export default [
       },
     ],
     url: "https://mcdonaldobservatory.org/",
-    want: [""],
-    been: ["/users/kman.png"],
     slug: "McDonald Observatory",
   },
   {
@@ -1215,8 +1123,6 @@ export default [
       },
     ],
     url: "https://innerspacecavern.com/",
-    want: [""],
-    been: ["/users/kman.png"],
     slug: "Inner-Space Caverns",
   },
   {
@@ -1243,8 +1149,6 @@ export default [
       },
     ],
     url: "https://www.spacex.com/launches/",
-    want: [""],
-    been: ["/users/kman.png"],
     slug: "Starbase",
   },
 
@@ -1272,8 +1176,6 @@ export default [
       },
     ],
     url: "http://www.bishopcastle.org/",
-    want: [""],
-    been: ["/users/kman.png"],
     slug: "Bishop's Castle",
   },
   {
@@ -1299,9 +1201,7 @@ export default [
         date: "Anytime",
       },
     ],
-    url: "",
-    want: ["/users/kman.png"],
-    been: [""],
+    url: "https://segam.slp.gob.mx/areas-naturales-protegidas/sotano-de-las-golondrinas/",
     slug: "Cave of Swallows",
   },
 
@@ -1328,9 +1228,7 @@ export default [
         date: "Anytime",
       },
     ],
-    url: "https://www.capri.com/en/s/blue-grotto",
-    want: ["/users/kman.png"],
-    been: [""],
+    url: "https://cultura.gov.it/luogo/grotta-azzurra",
     slug: "Blue Grotto",
   },
   {
@@ -1356,9 +1254,7 @@ export default [
         date: "Anytime",
       },
     ],
-    url: "https://www.jchs.org/1859-jail-museum",
-    want: [""],
-    been: ["/users/kman.png"],
+    url: "https://www.jchs.org/1859jailmuseum",
     slug: "1859 Jail Museum",
   },
   {
@@ -1384,9 +1280,7 @@ export default [
         date: "Anytime",
       },
     ],
-    url: "https://www.visitmarfa.com/see-do/attractions/marfa-lights",
-    want: [""],
-    been: ["/users/kman.png"],
+    url: "https://visitmarfa.com/mystery",
     slug: "Marfa Lights",
   },
   {
@@ -1412,9 +1306,7 @@ export default [
         date: "Depends on the Season",
       },
     ],
-    url: "",
-    want: [""],
-    been: ["/users/kman.png"],
+    url: "https://www.townofsaratoga.org/205/Hobo-Pool",
     slug: "Hobo Pool",
   },
   {
@@ -1440,9 +1332,7 @@ export default [
         date: "Anytime",
       },
     ],
-    url: "",
-    want: [""],
-    been: ["/users/kman.png"],
+    url: "https://www.hcaf.com/stonehenge-ii",
     slug: "Stonehenge 2",
   },
   {
@@ -1472,9 +1362,7 @@ export default [
         date: "Anytime",
       },
     ],
-    url: "https://homesteadresort.com/homestead-crater",
-    want: [""],
-    been: ["/users/kman.png"],
+    url: "https://homesteadmidwayutah.com/adventures/crater/",
     slug: "Homestead Crater",
   },
   {
@@ -1500,9 +1388,7 @@ export default [
         date: "Anytime",
       },
     ],
-    url: "",
-    want: [""],
-    been: ["/users/kman.png", "/users/ocho.png"],
+    url: "https://www.churchofjesuschrist.org/temples/details/salt-lake-temple?lang=eng",
     slug: "Salt Lake Temple",
   },
   {
@@ -1528,9 +1414,7 @@ export default [
         date: "Anytime",
       },
     ],
-    url: "",
-    want: ["/users/kman.png"],
-    been: [""],
+    url: "https://coudersporticemine.com/",
     slug: "Coudersport Ice Mine",
   },
   {
@@ -1557,8 +1441,6 @@ export default [
       },
     ],
     url: "https://boocastlepark.com/",
-    want: [""],
-    been: ["/users/kman.png"],
     slug: "d&dpark",
   },
   {
@@ -1585,8 +1467,6 @@ export default [
       },
     ],
     url: "https://www.thealamo.org",
-    want: [""],
-    been: ["/users/kman.png"],
     slug: "Alamo",
   },
   {
@@ -1612,9 +1492,7 @@ export default [
         date: "",
       },
     ],
-    url: " https://www.uptown-houston.com/locations/galleria-area/water-wall",
-    want: [""],
-    been: ["/users/kman.png"],
+    url: "https://uptown-houston.com/experience/parks/waterwall-park/",
     slug: "Waterwall",
   },
   {
@@ -1645,8 +1523,6 @@ export default [
       },
     ],
     url: "https://www.trans-alleghenylunaticasylum.com/",
-    want: ["/users/kman.png"],
-    been: [],
     slug: "Trans-Allegheny Lunatic Asylum",
   },
 
@@ -1677,9 +1553,7 @@ export default [
         event: "Photography",
       },
     ],
-    url: "",
-    want: [],
-    been: ["/users/kman.png"],
+    url: "https://www.churchofjesuschrist.org/learn/locations/adam-ondi-ahman?lang=eng",
     slug: "Adam-Ondi-Ahman",
   },
   {
@@ -1706,9 +1580,7 @@ export default [
         event: "Nature Appreciation",
       },
     ],
-    url: "",
-    want: [],
-    been: ["/users/kman.png"],
+    url: "https://www.churchofjesuschrist.org/learn/locations/far-west-temple-site?lang=eng",
     slug: "Far West Temple Site",
   },
   {
@@ -1738,9 +1610,7 @@ export default [
         event: "Photography",
       },
     ],
-    url: "https://www.churchofjesuschrist.org/temples/details/kirtland-temple?lang=eng",
-    want: ["/users/kman.png"],
-    been: [],
+    url: "https://www.churchofjesuschrist.org/learn/locations/kirtland-temple?lang=eng",
     slug: "Kirtland Temple",
   },
   {
@@ -1770,9 +1640,7 @@ export default [
         event: "Concerts and Performances",
       },
     ],
-    url: "https://www.cofchrist.org/temples/independence-temple",
-    want: [],
-    been: ["/users/kman.png"],
+    url: "https://cofchrist.org/temple-tour/",
     slug: "Independence Temple and Auditorium",
   },
   {
@@ -1803,8 +1671,6 @@ export default [
       },
     ],
     url: "https://nelson-atkins.org/",
-    want: [],
-    been: ["/users/kman.png"],
     slug: "Nelson-Atkins Museum of Art",
   },
   {
@@ -1835,8 +1701,6 @@ export default [
       },
     ],
     url: "https://www.stanleyhotel.com/",
-    want: ["/users/kman.png"],
-    been: [],
     slug: "Stanley Hotel",
   },
   {
@@ -1866,9 +1730,7 @@ export default [
         event: "Camping",
       },
     ],
-    url: "",
-    want: [],
-    been: ["/users/kman.png"],
+    url: "https://www.swt.usace.army.mil/Locations/Tulsa-District-Lakes/Oklahoma/Tenkiller-Lake/",
     slug: "Lake Tenkiller",
   },
 
@@ -1899,9 +1761,7 @@ export default [
         event: "Museums",
       },
     ],
-    url: "https://www.historicnauvoo.net/",
-    want: [],
-    been: ["/users/kman.png"],
+    url: "https://www.churchofjesuschrist.org/learn/history/sites/historic-nauvoo?lang=eng",
     slug: "Old Nauvoo",
   },
   {
@@ -1931,9 +1791,7 @@ export default [
         event: "Nature Walks",
       },
     ],
-    url: "https://www.utahvalley.com/things-to-do/outdoor-recreation/waterfalls/bridal-veil-falls/",
-    want: [],
-    been: ["/users/kman.png", "/users/ocho.png"],
+    url: "https://www.utahvalley.com/listing/bridal-veil-falls/41/",
     slug: "bridal-veil-falls",
   },
   {
@@ -1964,8 +1822,6 @@ export default [
       },
     ],
     url: "https://www.nps.gov/tica/index.htm",
-    want: [],
-    been: ["/users/kman.png"],
     slug: "timpanogos-cave",
   },
   {
@@ -1995,9 +1851,7 @@ export default [
         event: "Enjoy Scenic Views",
       },
     ],
-    url: "",
-    want: [],
-    been: ["/users/kman.png"],
+    url: "https://www.visittulsa.com/listing/center-of-the-universe/1846/",
     slug: "center-of-the-universe",
   },
   {
@@ -2034,8 +1888,6 @@ export default [
       },
     ],
     url: "https://www.visitinglaketahoe.com/",
-    want: [],
-    been: ["/users/kman.png"],
     slug: "lake-tahoe",
   },
 
@@ -2066,9 +1918,7 @@ export default [
         event: "Cultural Events",
       },
     ],
-    url: "https://en.wikipedia.org/wiki/Tomb_of_General_Jos%C3%A9_Gervasio_Artigas",
-    want: [],
-    been: ["/users/kman.png"],
+    url: "https://www.museos.gub.uy/index.php/museos/museos-por-localidad/montevideo/item/139-mausoleo-al-gral-jose-gervasio-artigas",
     slug: "tomb-of-general-jose-gervasio-artigas",
   },
   {
@@ -2091,8 +1941,6 @@ export default [
       },
     ],
     url: "https://www.nps.gov/guis/learn/historyculture/fort-massachusetts.htm",
-    want: ["/users/kman.png"],
-    been: [],
     slug: "Fort Massachusetts on Ship Island",
   },
   {
@@ -2115,8 +1963,6 @@ export default [
       },
     ],
     url: "https://www.nps.gov/guis/planyourvisit/fort-pickens-area.htm",
-    want: ["/users/kman.png"],
-    been: [],
     slug: "Fort Pickens",
   },
   {
@@ -2139,8 +1985,6 @@ export default [
       },
     ],
     url: "https://www.nps.gov/guis/learn/historyculture/fort-barrancas.htm",
-    want: ["/users/kman.png"],
-    been: [],
     slug: "Fort Barrancas",
   },
   {
@@ -2163,8 +2007,6 @@ export default [
       },
     ],
     url: "https://guidetoiceland.is/travel-iceland/drive/sigoldugljufur",
-    want: ["/users/kman.png"],
-    been: [],
     slug: "Sigoldugljufur-Iceland",
   },
   {
@@ -2187,8 +2029,6 @@ export default [
       },
     ],
     url: "https://www.bluelagoon.com/",
-    want: ["/users/kman.png"],
-    been: [],
     slug: "Bláa lónið-Iceland",
   },
   {
@@ -2211,8 +2051,6 @@ export default [
       },
     ],
     url: "https://www.icelandia.com/attractions/diamond-beach",
-    want: ["/users/kman.png"],
-    been: [],
     slug: "Breiðamerkursandur-Iceland",
   },
   {
@@ -2235,8 +2073,6 @@ export default [
       },
     ],
     url: "https://visitolympus.travel/getting-to-olympus/",
-    want: ["/users/kman.png"],
-    been: [],
     slug: "Mount Olympus-Greece",
   },
   {
@@ -2259,8 +2095,6 @@ export default [
       },
     ],
     url: "https://en.wikipedia.org/wiki/Acropolis_of_Athens",
-    want: ["/users/kman.png"],
-    been: [],
     slug: "Acropolis-Greece",
   },
   {
@@ -2283,8 +2117,6 @@ export default [
       },
     ],
     url: "https://en.wikipedia.org/wiki/Meteora",
-    want: ["/users/kman.png"],
-    been: [],
     slug: "Meteora-Greece",
   },
   {
@@ -2308,9 +2140,7 @@ export default [
         event: "Hotel bufet is trash",
       },
     ],
-    url: "",
-    want: [""],
-    been: ["/users/kman.png"],
+    url: "https://abadiamontserrat.cat/en/seccio/santuari/Basilica-and-other-places-of-worship",
     slug: "Basislica de mont serrat-Spain",
   },
   {
@@ -2333,9 +2163,7 @@ export default [
           "Hard hike to the cave, but worth it for the view and the history",
       },
     ],
-    url: "",
-    want: [""],
-    been: ["/users/kman.png"],
+    url: "https://www.montserratvisita.com/en/spirituality/holy-cave",
     slug: "Cave of the Black Madonna-Spain",
   },
   {
@@ -2361,8 +2189,6 @@ export default [
       },
     ],
     url: "https://www.morella.net/morellaturistica/descubre-morella/monumentos/el-castillo/",
-    want: [""],
-    been: ["/users/kman.png"],
     slug: "Castell de Morella-Spain",
   },
   {
@@ -2386,8 +2212,6 @@ export default [
       },
     ],
     url: "https://en.wikipedia.org/wiki/Santa_Maria,_Manresa",
-    want: [""],
-    been: ["/users/kman.png"],
     slug: "Monestir de San Benet de Bages-Spain",
   },
   {
@@ -2410,8 +2234,6 @@ export default [
       },
     ],
     url: "https://en.wikipedia.org/wiki/Santa_Maria,_Manresa",
-    want: [""],
-    been: ["/users/kman.png"],
     slug: "Basilica of Santa Maria de la Seu de Manresa-Spain",
   },
   {
@@ -2440,9 +2262,7 @@ export default [
         event: "Topless women is common here",
       },
     ],
-    url: "",
-    want: [""],
-    been: ["/users/kman.png"],
+    url: "https://peniscola.es/en/what-to-do/beaches/north-beach/",
     slug: "Playa de Peniscola-Spain",
   },
 ];

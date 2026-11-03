@@ -1,0 +1,121 @@
+export default [
+  {
+    name: "Balmorhea State Park",
+    url: "https://tpwd.texas.gov/state-parks/balmorhea",
+    address: {
+      country: "United States",
+      state: "Texas",
+      city: "Toyahvale",
+      street: "9207 TX-17",
+    },
+    location: {
+      latitude: 30.9444,
+      longitude: -103.7861,
+    },
+    type: ["Swimming hole"],
+    note: "",
+    slug: "Balmoreah",
+  },
+  {
+    name: "Crater of Diamonds State Park",
+    url: "https://www.arkansasstateparks.com/parks/crater-diamonds-state-park",
+    address: {
+      country: "United States",
+      state: "Arkansas",
+      city: "Murfreesboro",
+      street: "209 State Park Rd",
+    },
+    location: {
+      latitude: 34.0379,
+      longitude: -93.6804,
+    },
+    type: ["State Park", "Diamond Mine"],
+    note: "",
+    slug: "Crater of Diamonds State Park",
+  },
+  {
+    name: "Degray Lake Resort State Park",
+    url: "https://www.arkansasstateparks.com/parks/degray-lake-resort-state-park",
+    address: {
+      country: "United States",
+      state: "Arkansas",
+      city: "city",
+      street: "street",
+    },
+    location: {
+      latitude: 34.241238,
+      longitude: -93.243558,
+    },
+    type: ["Nature", "State Park"],
+    note: "",
+    slug: "Degray Lake Resort State Park",
+  },
+  {
+    name: "Hot Springs National Park",
+    url: "https://www.nps.gov/hosp/index.htm",
+    address: {
+      country: "United States",
+      state: "Arkansas",
+      city: "Hot Springs",
+      street: "",
+    },
+    location: {
+      latitude: 34.5211,
+      longitude: -93.0422,
+    },
+    type: ["National Park", "Hot Springs", "Historic Site"],
+    note: "",
+    slug: "Hot Springs National Park",
+  },
+  {
+    name: "Mammoth Cave National Park",
+    url: "https://www.nps.gov/maca/index.htm",
+    address: {
+      country: "United States",
+      state: "Kentucky",
+      city: "city",
+      street: "street",
+    },
+    location: {
+      latitude: 37.186933,
+      longitude: -86.100166,
+    },
+    type: ["Nature", "National Park"],
+    note: "",
+    slug: "Mammoth Cave National Park",
+  },
+  {
+    name: "Dry Tortugas",
+    url: "https://www.visitflorida.com/travel-ideas/articles/florida-keys-the-keys-dry-tortugas-national-park/?cid=PS_M8_GPS_&gad=1&gclid=EAIaIQobChMIxseE-_WMgQMVQ1N_AB01kgxXEAAYASAAEgI3pvD_BwE&gclsrc=aw.ds",
+    address: {
+      country: "United States",
+      state: "Florida",
+      city: "city",
+      street: "street",
+    },
+    location: {
+      latitude: 24.6285,
+      longitude: -82.8732,
+    },
+    type: ["Nature", "National Park"],
+    note: "",
+    slug: "Dry Tortugas",
+  },
+  {
+    name: "Enchanted Rock",
+    url: "https://tpwd.texas.gov/state-parks/enchanted-rock",
+    address: {
+      country: "United States",
+      state: "Texas",
+      city: "Fredericksburg",
+      street: "16710 Ranch Rd 965",
+    },
+    location: {
+      latitude: 30.5064,
+      longitude: -98.8183,
+    },
+    type: ["Natural Landmark", "State Park"],
+    note: "",
+    slug: "Enchanted Rock",
+  },
+];

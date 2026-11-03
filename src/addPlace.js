@@ -22,9 +22,11 @@ const loadSaved = () => {
       food: saved?.food || [],
       hotels: saved?.hotels || [],
       gas: saved?.gas || [],
+      parks: saved?.parks || [],
+      stores: saved?.stores || [],
     };
   } catch {
-    return { food: [], hotels: [], gas: [] };
+    return { food: [], hotels: [], gas: [], parks: [], stores: [] };
   }
 };
 
@@ -42,7 +44,7 @@ const emptyForm = {
   note: "",
 };
 
-// Builds an entry in the same shape as foodList.js, hotelList.js, or gasList.js
+// Builds an entry in the same shape as the matching data file
 const buildEntry = (category, form, latitude, longitude) => {
   const location = {
     latitude: Number(latitude.toFixed(4)),
@@ -64,7 +66,6 @@ const buildEntry = (category, form, latitude, longitude) => {
       favorites: toList(form.favorites),
       nasty: toList(form.nasty),
       slug: slugify(`${form.name}-${form.city}`),
-      like: [],
     };
   }
   if (category === "hotels") {
@@ -75,6 +76,17 @@ const buildEntry = (category, form, latitude, longitude) => {
       location,
       rating: form.rating,
       note: form.note,
+    };
+  }
+  if (category === "parks" || category === "stores") {
+    return {
+      name: form.name,
+      url: form.url,
+      address,
+      location,
+      type: toList(form.type),
+      note: form.note,
+      slug: slugify(`${form.name}-${form.city}`),
     };
   }
   return {
@@ -156,7 +168,8 @@ const AddPlace = ({ latitude, longitude }) => {
     URL.revokeObjectURL(link.href);
   };
 
-  const total = saved.food.length + saved.hotels.length + saved.gas.length;
+  const categories = ["food", "hotels", "gas", "parks", "stores"];
+  const total = categories.reduce((sum, cat) => sum + saved[cat].length, 0);
 
   return (
     <details className="add-place">
@@ -171,6 +184,8 @@ const AddPlace = ({ latitude, longitude }) => {
             <option value="food">Food</option>
             <option value="hotels">Hotel</option>
             <option value="gas">Gas station</option>
+            <option value="parks">Park</option>
+            <option value="stores">Store</option>
           </select>
         </label>
         <br />
@@ -199,11 +214,15 @@ const AddPlace = ({ latitude, longitude }) => {
         State:{" "}
         <input type="text" value={form.state} onChange={update("state")} />
         <br />
-        {category === "food" && (
+        {["food", "parks", "stores"].includes(category) && (
           <>
             Type (comma separated):{" "}
             <input type="text" value={form.type} onChange={update("type")} />
             <br />
+          </>
+        )}
+        {category === "food" && (
+          <>
             Good (comma separated):{" "}
             <input
               type="text"
@@ -251,7 +270,7 @@ const AddPlace = ({ latitude, longitude }) => {
       {total > 0 && (
         <>
           <ul>
-            {["food", "hotels", "gas"].map((cat) =>
+            {categories.map((cat) =>
               saved[cat].map((item, i) => (
                 <li key={`${cat}-${i}`}>
                   {entryName(item)} ({cat}){" "}

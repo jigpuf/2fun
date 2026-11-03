@@ -13,7 +13,6 @@ export default [
     favorites: ["Pizza", "Cheese Bread"],
     nasty: ["Wings"],
     slug: "Studebakers-Pizza",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "Burgertology",
@@ -30,7 +29,6 @@ export default [
     favorites: ["The Ozzie"],
     nasty: [""],
     slug: "burgertology",
-    like: ["/users/angela.png"],
   },
   {
     restaurant: "Alpha and Omaega",
@@ -47,7 +45,6 @@ export default [
     favorites: [""],
     nasty: [""],
     slug: "alpha-and-omega",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "Blacks Barbecue",
@@ -64,7 +61,6 @@ export default [
     favorites: ["Brisket"],
     nasty: [""],
     slug: "blacksAustin",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "Roopa's Kitchen",
@@ -88,7 +84,6 @@ export default [
     ],
     nasty: [""],
     slug: "roopaskitchen",
-    like: ["/users/kman.png"],
   },
 
   {
@@ -112,7 +107,6 @@ export default [
     ],
     nasty: [""],
     slug: "hawkersDallas",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "Kumori",
@@ -128,7 +122,6 @@ export default [
     favorites: ["Chicken Teriyaki Udon", "Cosmos Roll"],
     nasty: ["Yasae tempura"],
     slug: "Kumori",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "Narunya",
@@ -150,12 +143,11 @@ export default [
     ],
     nasty: ["Fireball"],
     slug: "Narunya",
-    like: ["/users/kman.png"],
   },
 
   {
     restaurant: "Ranchers Steak House",
-    url: "http://www.rancherssteakhouse.com/",
+    url: "https://www.facebook.com/rancherssteakhouse",
     address: {
       country: "United States",
       state: "Texas",
@@ -168,7 +160,6 @@ export default [
     favorites: ["Beef Fajita Sandwich", "Cheese Sticks", "Buttermilk Pie"],
     nasty: [""],
     slug: "Ranchers-Steak-House",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "Vermillion",
@@ -185,7 +176,6 @@ export default [
     favorites: ["Ceviche", "Fish Tacos", "Nachos"],
     nasty: ["Desert"],
     slug: "Vermillion",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "El Tapatios",
@@ -202,7 +192,6 @@ export default [
     favorites: ["La Parrilla Mezcla", "Horchata", "Flan"],
     nasty: ["Crunchy Tacos"],
     slug: "El-Tapatios",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "High Mountain Pies",
@@ -218,11 +207,10 @@ export default [
     favorites: [""],
     nasty: [""],
     slug: "High-Mountain-Pies",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "Mi Peru",
-    url: "https://www.miperumiami.com/",
+    url: "",
     address: {
       country: "United States",
       state: "Florida",
@@ -234,7 +222,6 @@ export default [
     favorites: ["Lomo Saltado", "Ceviche"],
     nasty: [""],
     slug: "Mi-Peru",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "Bamboo Bistro",
@@ -257,7 +244,6 @@ export default [
     ],
     nasty: ["Water"],
     slug: "Bamboo-Bistro",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "Don Cha Peruvian",
@@ -273,11 +259,10 @@ export default [
     favorites: [""],
     nasty: [""],
     slug: "Don-Cha-Peruvian",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "Coconuts on the Beach",
-    url: "https://coconutsonthebeach.com/pdf/main-menu.pdf",
+    url: "https://coconutsonthebeach.com/",
     address: {
       country: "United States",
       state: "Florida",
@@ -290,7 +275,6 @@ export default [
     favorites: [""],
     nasty: [""],
     slug: "coconuts",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "Fat Donkey Icecream",
@@ -307,7 +291,6 @@ export default [
     favorites: [""],
     nasty: [""],
     slug: "fatdonkey",
-    like: ["/users/kman.png"],
   },
 
   {
@@ -325,7 +308,6 @@ export default [
     favorites: [""],
     nasty: [""],
     slug: "The-Pie",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "Siragusas",
@@ -342,7 +324,6 @@ export default [
     favorites: [""],
     nasty: [""],
     slug: "siragusas",
-    like: ["/users/ocho.png"],
   },
   {
     restaurant: "Ban Thai",
@@ -365,7 +346,6 @@ export default [
     ],
     nasty: [""],
     slug: "Ban-Thai",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "The Perk",
@@ -382,7 +362,6 @@ export default [
     favorites: ["Pork Nachos"],
     nasty: [""],
     slug: "Ban-Thai",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "Bombay House",
@@ -399,7 +378,6 @@ export default [
     favorites: [""],
     nasty: [""],
     slug: "BombayHouseProvo",
-    like: ["/users/ocho.png"],
   },
   {
     restaurant: "Papito Moe's",
@@ -416,11 +394,10 @@ export default [
     favorites: [""],
     nasty: [""],
     slug: "PapitoMoesWestJordon",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "Luigi's Ristorante Italiano",
-    url: "",
+    url: "https://luigisonjones.com/",
     address: {
       country: "United States",
       state: "Texas",
@@ -433,11 +410,10 @@ export default [
     favorites: [""],
     nasty: [""],
     slug: "Luigi's Italian Restaurant-Houston",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "The Real New Orleans Style Restaurant",
-    url: "",
+    url: "https://realneworleansstyle.com/",
     address: {
       country: "United States",
       state: "Texas",
@@ -450,11 +426,10 @@ export default [
     favorites: [""],
     nasty: [""],
     slug: "The Real New Orleans Style Restaurant-Marble Falls",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "Seafood and Spaghetti Works",
-    url: "",
+    url: "https://www.seafoodandspaghetti.com/",
     address: {
       country: "United States",
       state: "Texas",
@@ -467,7 +442,6 @@ export default [
     favorites: [""],
     nasty: [""],
     slug: "Seafood and Spaghetti Works-Port Aransas",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "Marcello's Ocean Grill and Spirits",
@@ -484,7 +458,6 @@ export default [
     favorites: [""],
     nasty: [""],
     slug: "Marcello's Ocean Grill and Spirits-Port Isabel",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "El Mirasol",
@@ -501,7 +474,6 @@ export default [
     favorites: ["Green enchiladas"],
     nasty: [""],
     slug: "El Mirasol-San Antonio",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "Gabriellas Italian Grill and Pizzeria",
@@ -518,7 +490,6 @@ export default [
     favorites: ["Italian Nachos"],
     nasty: [""],
     slug: "Gabriellas Italian Grill and Pizzeria-South Padre Island",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "Mahi Nic",
@@ -535,7 +506,6 @@ export default [
     favorites: [""],
     nasty: [""],
     slug: "Mahi Nic-South Padre Island",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "Bella Sera of Kerrville",
@@ -552,7 +522,6 @@ export default [
     favorites: [""],
     nasty: [""],
     slug: "Bella Sera of Kerrville-Kerrville",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "Steamboat Bills",
@@ -576,7 +545,6 @@ export default [
     ],
     nasty: [""],
     slug: "Steamboat Bills-Lake Charles",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "Cafe Cuzco",
@@ -593,7 +561,6 @@ export default [
     favorites: [""],
     nasty: [""],
     slug: "Cafe Cuzco-Springfield",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "Hecho in Waco",
@@ -610,7 +577,6 @@ export default [
     favorites: [""],
     nasty: [""],
     slug: "Hecho in Waco-Waco1",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "Ninfas",
@@ -627,7 +593,6 @@ export default [
     favorites: ["Crawfish Enchiladas", "Salsa"],
     nasty: [""],
     slug: "Ninfas-Waco",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "135 Prime",
@@ -644,7 +609,6 @@ export default [
     favorites: ["", ""],
     nasty: [""],
     slug: "135 Prime-Waco",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "Diamondbacks",
@@ -661,11 +625,10 @@ export default [
     favorites: ["", ""],
     nasty: [""],
     slug: "Diamondbacks-Waco",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "Serious Dumplings",
-    url: "https://www.seriousdumplingsusa.com/",
+    url: "https://www.serious-sanji.com/",
     address: {
       country: "United States",
       state: "Florida",
@@ -683,7 +646,6 @@ export default [
     ],
     nasty: [""],
     slug: "seriousdumplings-davie",
-    like: ["/users/kman.png"],
   },
   {
     restaurant: "La Empanada Loca(Hector Suggestion)",
@@ -700,7 +662,6 @@ export default [
     favorites: [""],
     nasty: [""],
     slug: "la empanada loca-oakland park",
-    like: [""],
   },
   {
     restaurant: "Dreamland BBQ(Willie Suggestion)",
@@ -717,7 +678,6 @@ export default [
     favorites: [""],
     nasty: [""],
     slug: "Dreamland BBQ-Gatlinburg",
-    like: [""],
   },
   {
     restaurant: "Bennet BBQ(Willie Suggestion)",
@@ -734,7 +694,6 @@ export default [
     favorites: [""],
     nasty: [""],
     slug: "Bennet BBQ-Gatlinburg",
-    like: [""],
   },
   {
     restaurant: "Arepitas",
@@ -751,7 +710,6 @@ export default [
     favorites: ["Tostones"],
     nasty: [""],
     slug: "Arepitas-Harker Heights",
-    like: [""],
   },
   {
     restaurant: "La Fonda",
@@ -774,119 +732,5 @@ export default [
     ],
     nasty: ["Cod"],
     slug: "La Fonda-Sant Fruitós de Bages",
-    like: [""],
-  },
-  {
-    restaurant: "Toro",
-    url: "",
-    address: {
-      country: "USA",
-      state: "Texas",
-      city: "San Antonio",
-      street: "",
-      postalCode: "",
-    },
-    location: { latitude: 29.6104, longitude: -98.4902 },
-    type: [""],
-    favorites: ["Calamaras Fritos", "Panella 43", "Mejillones", "Queso Cabra"],
-    nasty: [""],
-    slug: "Toro-San Antonio",
-    like: [""],
-  },
-  {
-    restaurant: "Mian Noodle and Dumpling",
-    url: "",
-    address: {
-      country: "USA",
-      state: "Texas",
-      city: "San Antonio",
-      street: "",
-      postalCode: "",
-    },
-    location: { latitude: 29.6244, longitude: -98.4962 },
-    type: ["Dumplings"],
-    favorites: ["cheap"],
-    nasty: [""],
-    slug: "Mian Noodle and Dumpling-San Antonio",
-    like: [""],
-  },
-  {
-    restaurant: "Himalayan Flavor",
-    url: "",
-    address: {
-      country: "USA",
-      state: "Texas",
-      city: "",
-      street: "",
-      postalCode: "",
-    },
-    location: { latitude: 30.4557, longitude: -97.6596 },
-    type: ["Indian"],
-    favorites: [
-      "Chicken Lollipop",
-      "Garlic Naan",
-      "Butter Chicken",
-      "Himalayan Rice",
-    ],
-    nasty: [""],
-    slug: "",
-    like: [""],
-  },
-  {
-    restaurant: "Z Brothers",
-    url: "",
-    address: {
-      country: "USA",
-      state: "",
-      city: "",
-      street: "",
-      postalCode: "",
-    },
-    location: { latitude: 40.9055, longitude: -111.8791 },
-    type: ["Pizza"],
-    favorites: ["Bread Sticks", "Cheese Sticks", "Pizza"],
-    nasty: [""],
-    slug: "",
-    like: [""],
-  },
-  {
-    restaurant: "Karie Anne",
-    url: "",
-    address: {
-      country: "USA",
-      state: "Utah",
-      city: "Bountiful",
-      street: "",
-      postalCode: "",
-    },
-    location: { latitude: 40.8887, longitude: -111.892 },
-    type: ["Custard, Italian Ice"],
-    favorites: [""],
-    nasty: [""],
-    slug: "",
-    like: [""],
   },
 ];
-
-/*
- {
-    restaurant: "",
-    url: "",
-    address: {
-      country: "USA",
-      state: "",
-      city: "",
-      street: "",
-      postalCode: "",
-    },
-    location: { latitude: 41., longitude: 1.90066 },
-    type: [""],
-    favorites: [
-      "",
-      
-    ],
-    nasty: [""],
-    slug: "",
-    like: [""],
-  },
-*/

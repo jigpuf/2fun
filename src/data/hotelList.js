@@ -1,7 +1,7 @@
 export default [
   {
     hotel: "Fairfield Inn and Suites",
-    url: "",
+    url: "https://www.marriott.com/en-us/hotels/brofi-fairfield-inn-and-suites-brownsville-north/overview/",
     address: {
       country: "United States",
       state: "Texas",
@@ -64,32 +64,4 @@ export default [
     rating: "",
     note: "Near a 1000 year old monestary, Good AC, Nice rooms, Good food nearby at La Fonda, Beutiful part of the country, English speakers, driving distance to cool pllaces. Don't eat at l'O restaurant, expensive and weird",
   },
-  {
-    hotel: "Drury",
-    url: "",
-    address: {
-      country: "USA",
-      state: "Texas",
-      city: "San Antonio",
-      street: "",
-    },
-    location: { latitude: 29.6113, longitude: -98.4819 },
-    rating: "",
-    note: "Good for Temple and near good food",
-  },
 ];
-/*
-{
-    hotel: "",
-    url: "",
-    address: {
-      country: "USA",
-      state: "",
-      city: "",
-      street: "",
-    },
-    location: { latitude: 29., longitude: -98. },
-    rating: "",
-    note: ",
-  },
-  */
