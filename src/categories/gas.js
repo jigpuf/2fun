@@ -14,13 +14,13 @@ const Gas = (props) => {
           latitude,
           longitude,
           item.location.latitude,
-          item.location.longitude
+          item.location.longitude,
         );
         const direction = calculateDirection(
           latitude,
           longitude,
           item.location.latitude,
-          item.location.longitude
+          item.location.longitude,
         );
         return {
           ...item, // Spread the existing attributes of the item
@@ -45,7 +45,7 @@ const Gas = (props) => {
 
   const rows = array.map((item) => {
     return (
-      <tr>
+      <tr key={item.slug}>
         <td>{item.name}</td>
         <td>
           {item.city}
@@ -61,7 +61,7 @@ const Gas = (props) => {
           {getCardinalDirection(item.direction)} <br />
           <img
             style={{
-              display: "block;",
+              display: "block",
               width: "20%",
               height: "auto",
               transform: `rotate(${item.direction}deg)`,

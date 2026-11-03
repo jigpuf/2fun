@@ -6,6 +6,7 @@ import Destination from "./categories/destination.js";
 import Gas from "./categories/gas.js";
 import Drink from "./categories/drink.js";
 import Snacks from "./categories/snacks.js";
+import AddPlace from "./addPlace.js";
 
 const Main = (props) => {
   const [latitude, setLatitude] = useState(null);
@@ -48,15 +49,7 @@ const Main = (props) => {
       ) : (
         <p>Loading...</p>
       )}
-      <details>
-        Name: <input typeof="text"></input>
-        <br />
-        Type: <input typeof="text"></input>
-        <br />
-        Notes:
-        <input style={{ width: "90%" }} typeof="text-box"></input>
-        <br />
-      </details>
+      <AddPlace latitude={latitude} longitude={longitude} />
       <nav>
         {activeTab === "food" && (
           <Food latitude={latitude} longitude={longitude} />
