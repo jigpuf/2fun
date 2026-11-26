@@ -48,7 +48,7 @@ export default [
     address: {
       country: "Canada",
       state: "New Brunswick",
-      city: "Pearl Harbor",
+      city: "Hopewell Cape",
       street: "",
     },
     location: {
@@ -273,8 +273,8 @@ export default [
     address: {
       country: "United States",
       state: "Arkansas",
-      city: "city",
-      street: "street",
+      city: "Bismarck",
+      street: "2027 State Park Entrance Road",
     },
     location: { latitude: 34.241238, longitude: -93.243558 },
     type: ["Nature", "State Park"],
@@ -540,8 +540,8 @@ export default [
     address: {
       country: "United States",
       state: "Kentucky",
-      city: "city",
-      street: "street",
+      city: "Mammoth Cave",
+      street: "1 Mammoth Cave Parkway",
     },
     location: { latitude: 37.186933, longitude: -86.100166 },
     type: ["Nature", "National Park"],
@@ -742,8 +742,8 @@ export default [
     address: {
       country: "United States",
       state: "Florida",
-      city: "city",
-      street: "street",
+      city: "Key West",
+      street: "",
     },
     location: { latitude: 24.6285, longitude: -82.8732 },
     type: ["Nature", "National Park"],
@@ -2264,6 +2264,124 @@ export default [
     ],
     url: "https://peniscola.es/en/what-to-do/beaches/north-beach/",
     slug: "Playa de Peniscola-Spain",
+  },
+  {
+    name: "Gilgal Sculpture Garden",
+    address: {
+      country: "United States",
+      state: "Utah",
+      city: "Salt Lake City",
+      street: "749 East 500 South",
+    },
+    location: {
+      latitude: 40.7585,
+      longitude: -111.8697,
+    },
+    type: ["Sculpture Garden", "Park"],
+    activities: [
+      {
+        event: "Walking the sculpture garden",
+        date: "Anytime",
+      },
+    ],
+    url: "https://gilgalgarden.org/",
+    slug: "Gilgal Sculpture Garden",
+  },
+  {
+    name: "Sri Sri Radha Krishna Temple",
+    address: {
+      country: "United States",
+      state: "Utah",
+      city: "Spanish Fork",
+      street: "311 W 8500 S",
+    },
+    location: {
+      latitude: 40.0757,
+      longitude: -111.6621,
+    },
+    type: ["Temple", "Religious Site"],
+    activities: [
+      {
+        event: "Temple tour",
+        date: "Anytime",
+      },
+    ],
+    url: "https://www.utahkrishnas.org/sri-sri-radha-krishna-temple-spanish-fork/",
+    slug: "Sri Sri Radha Krishna Temple",
+  },
+  {
+    name: "Grand Canyon National Park",
+    address: {
+      country: "United States",
+      state: "Arizona",
+      city: "Grand Canyon Village",
+      street: "8 South Entrance Road",
+    },
+    location: {
+      latitude: 36.0589,
+      longitude: -112.1092,
+    },
+    type: ["Nature", "National Park"],
+    activities: [
+      {
+        event: "Viewing the South Rim",
+        date: "Anytime",
+      },
+      {
+        event: "Hiking",
+        date: "Anytime",
+      },
+    ],
+    url: "https://www.nps.gov/grca/index.htm",
+    slug: "Grand Canyon National Park",
+  },
+  {
+    name: "Waitomo Glowworm Caves",
+    address: {
+      country: "New Zealand",
+      state: "",
+      city: "Waitomo Caves",
+      street: "39 Waitomo Village Road",
+    },
+    location: {
+      latitude: -38.2607,
+      longitude: 175.1036,
+    },
+    type: ["Cave", "Natural Wonder"],
+    activities: [
+      {
+        event: "Glowworm cave boat tour",
+        date: "Anytime",
+      },
+    ],
+    url: "https://www.waitomo.com/glowworms-and-caves/waitomo-glowworm-caves",
+    slug: "Waitomo Glowworm Caves",
+  },
+  {
+    name: "Spanish Peaks",
+    address: {
+      country: "United States",
+      state: "Colorado",
+      city: "La Veta",
+      street: "Cordova Pass, County Road 46",
+    },
+    location: {
+      latitude: 37.3514,
+      longitude: -105.0229,
+    },
+    type: ["Volcano", "Wilderness"],
+    activities: [
+      {
+        event: "Hiking",
+        date: "Anytime",
+      },
+      {
+        event: "Scenic views",
+        date: "Anytime",
+      },
+    ],
+    url: "https://www.fs.usda.gov/r02/psicc/recreation/spanish-peaks-wilderness",
+    slug: "Spanish Peaks",
   },
 ];
 

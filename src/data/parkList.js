@@ -39,8 +39,8 @@ export default [
     address: {
       country: "United States",
       state: "Arkansas",
-      city: "city",
-      street: "street",
+      city: "Bismarck",
+      street: "2027 State Park Entrance Road",
     },
     location: {
       latitude: 34.241238,
@@ -73,8 +73,8 @@ export default [
     address: {
       country: "United States",
       state: "Kentucky",
-      city: "city",
-      street: "street",
+      city: "Mammoth Cave",
+      street: "1 Mammoth Cave Parkway",
     },
     location: {
       latitude: 37.186933,
@@ -90,8 +90,8 @@ export default [
     address: {
       country: "United States",
       state: "Florida",
-      city: "city",
-      street: "street",
+      city: "Key West",
+      street: "",
     },
     location: {
       latitude: 24.6285,
